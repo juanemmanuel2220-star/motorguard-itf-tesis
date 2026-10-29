@@ -1,0 +1,60 @@
+.TH MOTORGUARD-ITF 1 "octubre de 2026" "MotorGuard-ITF @VERSION@" "Comandos de usuario"
+.SH NOMBRE
+motorguard-itf \- monitoreo del detector embebido de fallas entre espiras (MCSA)
+.SH SINOPSIS
+.B motorguard-itf
+[\fB\-\-puerto\fR \fIPUERTO\fR | \fB\-\-replay\fR \fILOG\fR | \fB\-\-elegir\-log\fR]
+[\fB\-\-velocidad\fR \fIFACTOR\fR] [\fB\-\-tema\fR \fBsistema\fR|\fBclaro\fR|\fBoscuro\fR]
+.SH DESCRIPCIÓN
+Muestra la telemetría del firmware del detector de fallas entre espiras (Arduino Nano ESP32, por USB):
+estado del motor, corrientes y voltajes por fase, proyección de la firma, alarmas con su severidad y el
+dashboard completo de cada trama. Con el Arduino conectado permite inyectar fallas por el SSR con bloqueos
+de seguridad y confirmación explícita, y adquirir datasets nuevos (pares SANO/FALLA y prueba larga sin
+falla) con los mismos protocolos y archivos que los scripts de la tesis. Sin Arduino, reproduce un registro
+serial grabado.
+.PP
+La sección Asistente recomienda inspecciones y mantenimiento citando el documento y la página de cada
+recomendación (apoyo, no diagnóstico). Usa un modelo local (llama.cpp con Qwen) y, opcionalmente, un modelo
+externo por API elegido por el usuario. El botón «Preparar asistente» descarga el motor, los modelos y los
+documentos desde sus fuentes oficiales (varios GB, una sola vez) y construye el índice.
+.SH OPCIONES
+.TP
+.BI \-\-puerto " PUERTO"
+Puerto serie a usar (por defecto, el primer /dev/ttyACM*).
+.TP
+.BI \-\-replay " LOG"
+Reproducir un registro *_serial.log en lugar de leer el Arduino.
+.TP
+.B \-\-elegir\-log
+Elegir con un diálogo el registro a reproducir.
+.TP
+.BI \-\-velocidad " FACTOR"
+Factor de velocidad de la reproducción (1 = tiempo real).
+.TP
+.BI \-\-tema " MODO"
+Forzar el tema: sistema (sigue al del escritorio), claro u oscuro.
+.TP
+.B \-\-sin\-asistente
+No arrancar el modelo local del asistente.
+.SH ARCHIVOS
+.TP
+.I ~/Documentos/MotorGuard\-ITF/registros
+Registros de las sesiones (configurable en Ajustes).
+.TP
+.I ~/Documentos/MotorGuard\-ITF/adquisicion
+Datos de la sección Adquisición (configurable en esa sección).
+.TP
+.I ~/.local/share/MotorGuard\-ITF/logs/app.log
+Registro interno de la aplicación.
+.TP
+.I ~/.local/share/MotorGuard\-ITF/asistente
+Motor llama.cpp, modelos, documentos e índice del asistente. Las respuestas se guardan en
+asistente_AAAAMMDD.jsonl, en la carpeta de registros.
+.SH NOTAS
+Para leer el puerto serie, el usuario debe pertenecer al grupo \fBdialout\fR:
+.B sudo usermod \-aG dialout $USER
+(y volver a iniciar sesión).
+.SH AUTOR
+Juan Emmanuel Luna Velázquez (tesis de Ingeniería Mecatrónica, UASLP).
+.SH LICENCIA
+GPL\-3.0\-or\-later.

@@ -1,0 +1,60 @@
+Carpeta del asistente: /home/luna/.local/share/MotorGuard-ITF/asistente
+  runtime: /home/luna/.local/share/MotorGuard-ITF/asistente/llama/llama-server
+  ✓ Qwen3-Embedding-0.6B-Q8_0.gguf (SHA-256 verificado)
+  ✓ Qwen3.5-4B-Q4_K_M.gguf (SHA-256 verificado)
+Documentos: /home/luna/tesis_itf/rag_docs
+  listo    Manual de motores de baja tensión ABB
+  listo    NASA · Reliability-Centered Maintenance Guide
+  listo    DOE/FEMP · O&M Best Practices Guide R3.0
+  listo    USBR · FIST 3-1
+  listo    USBR · FIST 3-4
+  listo    USBR · FIST 4-1B
+  listo    Resultados validados de la tesis
+  Leyendo Manual de motores de baja tensión ABB: 0/7  (0 s)
+  Indexando fragmentos: 16/719  (61 s)
+  Indexando fragmentos: 32/719  (118 s)
+  Indexando fragmentos: 48/719  (177 s)
+  Indexando fragmentos: 64/719  (262 s)
+  Indexando fragmentos: 80/719  (359 s)
+  Indexando fragmentos: 96/719  (413 s)
+  Indexando fragmentos: 112/719  (455 s)
+  Indexando fragmentos: 128/719  (510 s)
+  Indexando fragmentos: 144/719  (559 s)
+  Indexando fragmentos: 160/719  (603 s)
+  Indexando fragmentos: 176/719  (691 s)
+  Indexando fragmentos: 192/719  (738 s)
+  Indexando fragmentos: 208/719  (785 s)
+  Indexando fragmentos: 224/719  (832 s)
+  Indexando fragmentos: 240/719  (874 s)
+  Indexando fragmentos: 256/719  (916 s)
+  Indexando fragmentos: 272/719  (958 s)
+  Indexando fragmentos: 288/719  (1003 s)
+  Indexando fragmentos: 304/719  (1041 s)
+  Indexando fragmentos: 320/719  (1083 s)
+  Indexando fragmentos: 336/719  (1123 s)
+  Indexando fragmentos: 352/719  (1169 s)
+  Indexando fragmentos: 368/719  (1209 s)
+  Indexando fragmentos: 384/719  (1249 s)
+  Indexando fragmentos: 400/719  (1289 s)
+  Indexando fragmentos: 416/719  (1334 s)
+  Indexando fragmentos: 432/719  (1381 s)
+  Indexando fragmentos: 448/719  (1424 s)
+  Indexando fragmentos: 464/719  (1459 s)
+  Indexando fragmentos: 480/719  (1500 s)
+  Indexando fragmentos: 496/719  (1549 s)
+  Indexando fragmentos: 512/719  (1589 s)
+  Indexando fragmentos: 528/719  (1632 s)
+  Indexando fragmentos: 544/719  (1671 s)
+  Indexando fragmentos: 560/719  (1711 s)
+  Indexando fragmentos: 576/719  (1753 s)
+  Indexando fragmentos: 592/719  (1793 s)
+  Indexando fragmentos: 608/719  (1834 s)
+  Indexando fragmentos: 624/719  (1875 s)
+  Indexando fragmentos: 640/719  (1926 s)
+  Indexando fragmentos: 656/719  (2060 s)
+  Indexando fragmentos: 672/719  (2140 s)
+  Indexando fragmentos: 688/719  (2184 s)
+  Indexando fragmentos: 704/719  (2223 s)
+  Indexando fragmentos: 719/719  (2274 s)
+  índice: 719 fragmentos en 2274 s -> /home/luna/.local/share/MotorGuard-ITF/asistente/indice
+salida=0

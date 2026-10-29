@@ -1,0 +1,28 @@
+=================== ubuntu:26.04
+instalado en Ubuntu 26.04.1 LTS
+Package: motorguard-itf Status: install ok installed Version: 1.0.0 
+/usr/bin/motorguard-itf
+Traceback (most recent call last):
+  File "/usr/lib/motorguard-itf/motorguard_dashboard/app.py", line 40, in <module>
+    from motorguard_dashboard.ui.monitor_window import MonitorWindow
+  File "/usr/lib/motorguard-itf/motorguard_dashboard/ui/monitor_window.py", line 30, in <module>
+    from motorguard_dashboard.ui.asistente_tab import VENTANA_PULSO_S, AsistenteTab
+  File "/usr/lib/motorguard-itf/motorguard_dashboard/ui/asistente_tab.py", line 64, in <module>
+    from motorguard_dashboard.ui.conversacion import Conversacion, html_respuesta  # noqa: E402,F401 (compatibilidad)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'motorguard_dashboard.ui.conversacion'
+manual: incluido en el paquete
+la app corrió (código 1; 124 = cerrada por el tiempo de prueba)
+FALTA app.log
+Traceback (most recent call last):
+  File "/usr/lib/motorguard-itf/motorguard_dashboard/app.py", line 40, in <module>
+    from motorguard_dashboard.ui.monitor_window import MonitorWindow
+  File "/usr/lib/motorguard-itf/motorguard_dashboard/ui/monitor_window.py", line 30, in <module>
+    from motorguard_dashboard.ui.asistente_tab import VENTANA_PULSO_S, AsistenteTab
+  File "/usr/lib/motorguard-itf/motorguard_dashboard/ui/asistente_tab.py", line 64, in <module>
+    from motorguard_dashboard.ui.conversacion import Conversacion, html_respuesta  # noqa: E402,F401 (compatibilidad)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'motorguard_dashboard.ui.conversacion'
+*** FALLÓ en ubuntu:26.04 (código 11)
+===================
+1 imagen(es) con fallas

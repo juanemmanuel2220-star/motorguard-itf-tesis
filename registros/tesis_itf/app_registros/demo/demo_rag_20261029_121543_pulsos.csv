@@ -1,0 +1,2 @@
+n,serie,pulso_en_serie,taps_declarados,solicitud,t_solicitud,duracion_pedida_s,confirmacion_fw,motivo_rechazo_fw,t_encendido,t_apagado,t_on_ms_fw,forzado_fw,resultado,alarma_confirmada,latencia_alarma_s,sev_max,ml_max_pp,p_max_pp,i1_A
+1,1,1,INTER,2026-10-29 12:15:49,1793297749.926,5,encendido,,1793297749.937,1793297755.022,5092,0,completo,1,5.1,INTER,2.840,2.752,7.7590

@@ -1,0 +1,200 @@
+{
+  "fecha": "2026-10-08 16:41:28",
+  "carga": "75%",
+  "clase": "SEVERA",
+  "decision": "firmware",
+  "t_pulso": 11.0,
+  "esperas_rango": [
+    12.0,
+    20.0
+  ],
+  "concordancia_pc_fw": {
+    "comparadas": 117,
+    "concuerdan": 117
+  },
+  "semilla": 1791499077,
+  "ang_falla": -81.4,
+  "umbral": 0.4,
+  "persistencia": 3,
+  "t_cola": 2.0,
+  "regla_primaria": "persistencia (v2)",
+  "plan": [
+    "SIMULADA",
+    "SIMULADA",
+    "REAL",
+    "SIMULADA",
+    "REAL",
+    "SIMULADA",
+    "REAL",
+    "SIMULADA",
+    "SIMULADA",
+    "SIMULADA",
+    "SIMULADA",
+    "REAL",
+    "REAL",
+    "SIMULADA",
+    "SIMULADA",
+    "REAL",
+    "REAL",
+    "REAL",
+    "REAL",
+    "REAL"
+  ],
+  "TP": 2,
+  "FN": 0,
+  "FP": 0,
+  "TN": 4,
+  "sensibilidad": 1.0,
+  "especificidad": 1.0,
+  "v1_ultima_trama": {
+    "TP": 2,
+    "FN": 0,
+    "FP": 0,
+    "TN": 4
+  },
+  "tramas_libres": 54,
+  "tramas_libres_sobre_umbral": 8,
+  "eventos_falsa_alarma_continua": 0,
+  "minutos_libres": 1.3,
+  "falsas_alarmas_por_hora": 0.0,
+  "severidad_esperada": "SEVERA",
+  "severidad_correcta": 2,
+  "detectadas": 2,
+  "severidad_distribucion": {
+    "LEVE": 0,
+    "INTER": 0,
+    "SEVERA": 2
+  },
+  "enclavamiento_ok": 2,
+  "liberacion_s": {
+    "min": 5.4,
+    "max": 5.9
+  },
+  "reales_sin_firma": [],
+  "secundario_sin_reales_sin_firma": {
+    "TP": 2,
+    "FN": 0
+  },
+  "pruebas": [
+    {
+      "prueba": 1,
+      "tipo": "SIMULADA",
+      "proys": [
+        0.6477933012748526,
+        0.28104454848662996,
+        0.18640288468642782,
+        -0.13867299200161123,
+        -0.32549835732850785
+      ],
+      "alarma": false,
+      "alarma_v1": false,
+      "t_ini": 1791499117.2408223,
+      "t_fin": 1791499128.4588108,
+      "sev_max": 0,
+      "dr2_max": 0.6646,
+      "sin_firma": false,
+      "enclavada_ok": null,
+      "liberada_s": null
+    },
+    {
+      "prueba": 2,
+      "tipo": "SIMULADA",
+      "proys": [
+        -0.23234788039279475,
+        -0.20451695747480828,
+        -0.2006030312731304,
+        -0.1854794109261118,
+        -0.1764773813241344
+      ],
+      "alarma": false,
+      "alarma_v1": false,
+      "t_ini": 1791499151.2269087,
+      "t_fin": 1791499162.2401855,
+      "sev_max": 0,
+      "dr2_max": 0.3226,
+      "sin_firma": false,
+      "enclavada_ok": null,
+      "liberada_s": null
+    },
+    {
+      "prueba": 3,
+      "tipo": "REAL",
+      "proys": [
+        6.1320477800771505,
+        6.185358094620496,
+        5.928342222466645,
+        6.080519816314671,
+        1.3962457080000363
+      ],
+      "alarma": true,
+      "alarma_v1": true,
+      "t_ini": 1791499179.575694,
+      "t_fin": 1791499190.8218696,
+      "sev_max": 3,
+      "dr2_max": 6.1854,
+      "sin_firma": false,
+      "enclavada_ok": true,
+      "liberada_s": 5.4
+    },
+    {
+      "prueba": 4,
+      "tipo": "SIMULADA",
+      "proys": [
+        -0.23091828044931356,
+        -0.011005791335772314,
+        -0.0033440587835837188,
+        -0.23879652097671675,
+        0.012589418750913843
+      ],
+      "alarma": false,
+      "alarma_v1": false,
+      "t_ini": 1791499208.2465374,
+      "t_fin": 1791499219.4726226,
+      "sev_max": 0,
+      "dr2_max": 0.2628,
+      "sin_firma": false,
+      "enclavada_ok": null,
+      "liberada_s": null
+    },
+    {
+      "prueba": 5,
+      "tipo": "REAL",
+      "proys": [
+        5.766381577694777,
+        5.659248330644499,
+        5.79327038679155,
+        5.6907327483180925,
+        0.6132186484072534
+      ],
+      "alarma": true,
+      "alarma_v1": true,
+      "t_ini": 1791499241.92146,
+      "t_fin": 1791499253.4635522,
+      "sev_max": 3,
+      "dr2_max": 5.7935,
+      "sin_firma": false,
+      "enclavada_ok": true,
+      "liberada_s": 5.9
+    },
+    {
+      "prueba": 6,
+      "tipo": "SIMULADA",
+      "proys": [
+        -0.13608271956185508,
+        -0.1368509433302137,
+        0.08103192595789,
+        0.26484983698119413,
+        0.380344092396883
+      ],
+      "alarma": false,
+      "alarma_v1": false,
+      "t_ini": 1791499270.587036,
+      "t_fin": 1791499281.8102543,
+      "sev_max": 0,
+      "dr2_max": 0.5538,
+      "sin_firma": false,
+      "enclavada_ok": null,
+      "liberada_s": null
+    }
+  ]
+}

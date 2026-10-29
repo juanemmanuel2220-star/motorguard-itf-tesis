@@ -1,0 +1,47 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: MotorGuard-ITF
+Upstream-Contact: Juan Emmanuel Luna Velázquez <lunabask13@gmail.com>
+
+Files: *
+Copyright: 2026 Juan Emmanuel Luna Velázquez
+License: GPL-3.0-or-later
+
+Files: usr/lib/motorguard-itf/motorguard_dashboard/ui/fuentes/Figtree-*.ttf
+Copyright: 2022 The Figtree Project Authors (https://github.com/erikdkennedy/figtree)
+License: OFL-1.1
+
+Files: usr/lib/motorguard-itf/motorguard_dashboard/ui/recursos/marcas/*.svg
+Copyright: Simple Icons contributors (https://simpleicons.org), simple-icons 16.33.0
+License: CC0-1.0
+Comment: Brand logos (Claude, Qwen, Google Gemini, Mistral AI, DeepSeek, OpenRouter, Ollama) shown only to
+ identify which language model produced an answer. The trademarks belong to their owners; no endorsement or
+ affiliation is implied. See ui/recursos/marcas/LEEME.md.
+
+Files: usr/lib/motorguard-itf/motorguard_dashboard/ui/fuentes/JetBrainsMono-*.ttf
+Copyright: 2020 The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)
+License: OFL-1.1
+
+License: GPL-3.0-or-later
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: OFL-1.1
+ This Font Software is licensed under the SIL Open Font License, Version 1.1.
+ The complete license text is shipped next to the fonts in
+ /usr/lib/motorguard-itf/motorguard_dashboard/ui/fuentes/ (OFL_Figtree.txt and
+ OFL_JetBrainsMono.txt) and is available at https://openfontlicense.org
+
+License: CC0-1.0
+ To the extent possible under law, the Simple Icons contributors have waived all copyright and related or
+ neighboring rights to the icon files. On Debian systems, the complete text of the CC0 1.0 Universal license
+ can be found in "/usr/share/common-licenses/CC0-1.0".

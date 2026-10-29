@@ -1,0 +1,6 @@
+t_envio,t_inicio_alarma,duracion_s,sev,ml,pl
+1791834134.350,1791833161.646,61.3,2,1.302,0.736
+# NOTA (12-oct): este 'r' NO forma parte del tramo de 25 %. Lo envio por error de procedimiento el
+# auxiliar reinicio_alarma_atascada.py (se edito tramo.sh mientras corria) a las 13:42:14.350,
+# DESPUES de terminar el tramo (ultimo bloque 13:42:14.206; resumen escrito a las 13:42:14).
+# Los datos del tramo de 25 % no se ven afectados. La alarma atascada de 13:26:01 duro 972.6 s.

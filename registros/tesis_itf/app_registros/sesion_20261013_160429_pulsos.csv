@@ -1,0 +1,4 @@
+n,serie,pulso_en_serie,taps_declarados,solicitud,t_solicitud,duracion_pedida_s,confirmacion_fw,motivo_rechazo_fw,t_encendido,t_apagado,t_on_ms_fw,forzado_fw,resultado,alarma_confirmada,latencia_alarma_s,sev_max,ml_max_pp,p_max_pp,i1_A
+1,1,1,INTER,2026-10-13 16:10:12,1791929412.765,5,encendido,,1791929413.048,1791929419.713,6721,0,completo,1,4.2,INTER,2.773,2.775,7.4108
+2,1,2,INTER,2026-10-13 16:10:42,1791929442.737,5,encendido,,1791929443.064,1791929448.511,5135,0,completo,1,4.8,INTER,2.523,2.837,7.4535
+3,1,3,INTER,2026-10-13 16:11:11,1791929471.520,5,encendido,,1791929471.643,1791929476.735,5116,0,completo,1,5.4,INTER,2.214,2.949,7.3564

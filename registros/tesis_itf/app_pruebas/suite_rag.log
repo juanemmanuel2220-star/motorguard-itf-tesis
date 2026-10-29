@@ -1,0 +1,143 @@
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+==================================================
+🚀 EJECUTANDO SUITE COMPLETA DE PRUEBAS MOTORGUARD
+==================================================
+
+[1/5] Probando Buffer Circular (NumPyRingBuffer)...
+test_ring_buffer_basic PASSED
+test_ring_buffer_wrap_around PASSED
+40 cycles (20 sec equivalent signal) processed in: 0.99 ms
+test_ring_buffer_performance PASSED
+
+[2/5] Probando Procesador MCSA (FFT, Bandas, Desbalance)...
+test_pure_sinusoid_fft_accuracy PASSED (f=60.0 Hz, amp=5.000 A)
+test_three_phase_unbalance PASSED (I_unb sano: 0.00%, desbalanceado: 15.38%)
+test_mcsa_sidebands_detection PASSED (A55=0.250A, A65=0.400A, r65=0.0800)
+test_computation_latency PASSED: Promedio 0.81 ms por ventana (Límite: 3.0 ms)
+
+[3/5] Probando Gestor de Referencias Sanas (BaselineManager)...
+Captura de Baseline (10 ventanas) exitosa.
+Sano I_unb Z-score: -0.30 (Alert: NORMAL)
+Falla I_unb (%) -> Delta: +137217.3%, Z: +2100.96, Alerta: FAULT
+Falla A_65 (A) -> Delta: +20186.0%, Z: +690.78, Alerta: FAULT
+test_baseline_capture_and_zscore PASSED
+
+[4/5] Probando Registro de Eventos y Streaming CSV (EventRecorder)...
+test_event_recorder_lifecycle PASSED
+
+[5/5] Probando Integración E2E (Secuencia Experimental Completa)...
+
+--- PASO 1: Régimen Sano L0 (0%) y Captura de Baseline (5s) ---
+✓ Baseline L0 capturado: I_prom=4.45A, I_unb=0.02%
+
+--- PASO 2: Cambio de Carga a L2 (50% Media) ---
+✓ Post-carga: I_prom=5.60A (esperado ~5.6A), I_unb=0.01%
+
+--- PASO 3: Inyección de Falla ITF Leve ---
+✓ Con Falla Leve: I_unb=5.22%, A65=0.137A
+
+--- PASO 4: Aumento de Severidad a Severa ---
+✓ Con Falla Severa: I_unb=19.37%, A65=0.438A
+
+--- PASO 5: Retiro de Falla (Falla OFF / Sano) ---
+✓ Recuperado: I_unb=0.02%, A65=0.038A
+✓ CSV validado: 22 filas grabadas sincronizadamente.
+
+=======================================================
+🎉 TEST E2E PIPELINE COMPLETO Y EXITOSO AL 100%
+=======================================================
+
+[6/6] Probando Telemetría del firmware 299a943 (parser, reproducción, puerto serie, alarmas y ventana)...
+✓ 11 logs, 1740 tramas del firmware 299a943 leídas sin discrepancias
+✓ Parser de telemetría: 6/6 pruebas
+✓ Reproducción de logs: 4/4 pruebas
+✓ Fuente serie (puerto virtual): 2/2 pruebas
+  alarmas por log: INTER_75%_20261008_1628=6, INTER_75%_20261009_1501=6, INTER_75%_20261009_1513=10, LEVE_75%_20261006_1753=0, LEVE_75%_20261007_1404=0, LEVE_75%_20261007_1450=0, LEVE_75%_20261007_1529=0, LEVE_75%_20261009_1526=0, LEVE_75%_20261009_1546=2, SEVERA_75%_20261008_1612=10, SEVERA_75%_20261008_1637=2
+✓ Registro de alarmas: 3/3 pruebas
+  ventana: 10 alarmas SEVERA en tabla y CSV; sin controles que envíen comandos
+✓ Ventana de monitoreo: 1/1 prueba
+
+[7/7] Probando Inyección (etapa 2): bloqueos y panel con simulador del firmware...
+  sin confirmación válida no sale ningún '1'
+✓ Bloqueos de inyección: 11/11 pruebas
+  simulador: '0' al conectar, diálogo, pulso, enfriamiento, WARMUP, rechazo, PARO y cierre
+✓ Panel de inyección con simulador: 2/2 pruebas
+
+[8/8] Probando Dashboard (trama, consultas a petición W/f/s)...
+✓ Respuestas a petición (W real, f/s derivados): 4/4 pruebas
+✓ Dashboard: 3/3 pruebas
+
+[9/9] Probando Tema claro/oscuro (modos, sistema, contraste)...
+  contraste mínimo de los pares de texto: 4.85:1
+✓ Tema claro/oscuro: 2/2 pruebas
+
+[10/10] Probando Estabilidad (app.log, rotación, recuperación, instancia, rutas, topes)...
+✓ Estabilidad: 7/7 pruebas
+
+[11/11] Probando Adquisición (pares SANO/FALLA, base sin falla, equivalencia con el dataset real)...
+  ✅ adquisición: test_bloques_de_10_con_nueva_confirmacion
+  ✅ adquisición: test_carpetas_protegidas
+  ✅ adquisición: test_continuar_y_fila_huerfana
+  ✅ adquisición: test_control_disparo_externo
+    1214 filas reales de 13 archivos reproducidas con el formato de la app
+  ✅ adquisición: test_equivalencia_con_csv_reales
+  ✅ adquisición: test_filtros_de_calidad
+  ✅ adquisición: test_par_completo_y_archivos
+  ✅ adquisición: test_parametros
+  ✅ adquisición: test_pausar_y_terminar_envian_cero_si_hay_pulso
+  ✅ adquisición: test_prueba_larga
+  ✅ adquisición: test_pulso_interrumpido_pausa_la_captura
+  ✅ adquisición: test_sano_inestable_y_reinicio_de_referencia
+  ✅ adquisición: test_serie_armada_caduca_y_conexion_perdida
+  simulador: diálogo, 2 pares completos, bloqueo manual, prueba larga sin '1' y cierre con captura abierta
+✓ Sección Adquisición con simulador: 1/1 prueba
+
+[12/12] Probando Plano de la firma (método del detector, contra logs reales)...
+  ✅ plano de la firma: test_base_desde_firmware
+    P recalculada = P del firmware en 1685/1696 tramas reales; ML con la base despejada en 220/220
+  ✅ plano de la firma: test_coincide_con_logs_reales
+  ✅ plano de la firma: test_confirmacion_base_y_reinicios
+  ✅ plano de la firma: test_referencia_y_proyeccion
+  ✅ plano de la firma: test_tarjeta_dibuja_log_real
+  ✅ plano de la firma: test_ventana_alimenta_el_plano
+
+[13/13] Probando Asistente RAG (ingesta, índice, citas, llama-server falso, proveedor externo)...
+  ✅ asistente RAG: test_aislamiento_del_puerto_serie
+  ✅ asistente RAG: test_asistente_con_servidor_falso
+  ✅ asistente RAG: test_citas_y_prompt
+  ✅ asistente RAG: test_descargas
+  ✅ asistente RAG: test_extracto_tesis_y_idioma
+  ✅ asistente RAG: test_fragmentos_no_cruzan_pagina
+  ✅ asistente RAG: test_indice_busqueda_y_disco
+  ✅ asistente RAG: test_pdf_reales
+  ✅ asistente RAG: test_servicio_arranca_y_detiene
+  llama-server falso: arranque, índice, pregunta con citas, alarma automática única, externo con respaldo local, abstención y paro
+✓ Sección Asistente con llama-server falso: 2/2 pruebas
+
+==================================================
+✅ TODAS LAS PRUEBAS (75/75) COMPLETADAS CON ÉXITO
+==================================================

@@ -1,0 +1,26 @@
+{
+  "fecha": "2026-10-12 13:12:07",
+  "firmware": "299a943",
+  "nota": "lazo desconectado; 0-25-50-75-50-25-0-25-50-75, ~9 min por tramo; inicio en 0 %",
+  "exposicion_min": 8.6,
+  "eventos_falsa_alarma": 0,
+  "tasa_por_hora": 0.0,
+  "tasa_sup95_por_hora": 20.85,
+  "escalones_de_carga": 2,
+  "escalones_con_alarma_30s": 0,
+  "alarmas_tras_escalon": 0,
+  "alarmas_atascadas_>30s": 0,
+  "eventos": [],
+  "escalones": [
+    {
+      "t": 1791832309.2844768,
+      "de": 5.3901,
+      "a": 1.6859
+    },
+    {
+      "t": 1791832311.0697055,
+      "de": 1.6859,
+      "a": 0.0901
+    }
+  ]
+}

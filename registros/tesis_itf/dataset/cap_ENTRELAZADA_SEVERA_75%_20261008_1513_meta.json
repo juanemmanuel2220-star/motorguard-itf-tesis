@@ -1,0 +1,171 @@
+{
+  "sesiones": [
+    {
+      "inicio": "2026-10-08 15:13:17",
+      "clase": "SEVERA",
+      "carga": "75%",
+      "pares_previos": 0,
+      "firmware": "f643484 fix(captura): --continuar ignora el archivo _descartes al buscar la sesion previa",
+      "nota": "taps SEVERA fase C; resistor 5 ohm/700 W con ventilador; I_lazo=5.0 A al inicio (pinza); fusible 10 A rapido; SSR sobre disipador; carga 75%; cooldown 20 s; tol-de2 1.0",
+      "parametros": {
+        "clase": 3,
+        "carga": "75%",
+        "pares": 50,
+        "port": "/dev/ttyACM0",
+        "continuar": false,
+        "duracion_pulso": 7.0,
+        "t_min_on": 3.0,
+        "cooldown": 20.0,
+        "umbral_e2": 0.0,
+        "nota": "taps SEVERA fase C; resistor 5 ohm/700 W con ventilador; I_lazo=5.0 A al inicio (pinza); fusible 10 A rapido; SSR sobre disipador; carga 75%; cooldown 20 s; tol-de2 1.0",
+        "tol_i": 0.06,
+        "tol_de2": 1.0
+      },
+      "previo": {
+        "ia": 5.22,
+        "ib": 6.0,
+        "ic": 5.29,
+        "va": 121.6,
+        "vb": 124.6,
+        "vc": 123.4,
+        "u2v": 0.51,
+        "u2i": 4.81,
+        "de2_fw": 0.25
+      },
+      "fin": "2026-10-08 15:14:58",
+      "pares_total": 2,
+      "descartes": 1
+    },
+    {
+      "inicio": "2026-10-08 15:17:37",
+      "clase": "SEVERA",
+      "carga": "75%",
+      "pares_previos": 2,
+      "firmware": "f643484 fix(captura): --continuar ignora el archivo _descartes al buscar la sesion previa",
+      "nota": "REANUDACION desde el par 3 tras pausa del usuario",
+      "parametros": {
+        "clase": 3,
+        "carga": "75%",
+        "pares": 50,
+        "port": "/dev/ttyACM0",
+        "continuar": true,
+        "duracion_pulso": 7.0,
+        "t_min_on": 3.0,
+        "cooldown": 20.0,
+        "umbral_e2": 0.0,
+        "nota": "REANUDACION desde el par 3 tras pausa del usuario",
+        "tol_i": 0.06,
+        "tol_de2": 1.0
+      },
+      "previo": {
+        "ia": 5.23,
+        "ib": 6.0,
+        "ic": 5.26,
+        "va": 121.5,
+        "vb": 124.1,
+        "vc": 121.0,
+        "u2v": 0.99,
+        "u2i": 4.58,
+        "de2_fw": 0.28
+      },
+      "fin": "2026-10-08 15:32:40",
+      "pares_total": 33,
+      "descartes": 0,
+      "observaciones": "I_lazo (pinza) 5.0 A al inicio y 5.0 A a la mitad (par ~20). Lazo abierto desde 15:32:04."
+    },
+    {
+      "inicio": "2026-10-08 15:36:06",
+      "clase": "SEVERA",
+      "carga": "75%",
+      "pares_previos": 31,
+      "firmware": "f643484 fix(captura): --continuar ignora el archivo _descartes al buscar la sesion previa",
+      "nota": "REANUDACION desde el par 32 tras fijar la resistencia que se safo (15:32); pulso de prueba 5.4 pp",
+      "parametros": {
+        "clase": 3,
+        "carga": "75%",
+        "pares": 50,
+        "port": "/dev/ttyACM0",
+        "continuar": true,
+        "duracion_pulso": 7.0,
+        "t_min_on": 3.0,
+        "cooldown": 20.0,
+        "umbral_e2": 0.0,
+        "nota": "REANUDACION desde el par 32 tras fijar la resistencia que se safo (15:32); pulso de prueba 5.4 pp",
+        "tol_i": 0.06,
+        "tol_de2": 1.0
+      },
+      "previo": {
+        "ia": 5.18,
+        "ib": 5.93,
+        "ic": 5.19,
+        "va": 118.4,
+        "vb": 122.4,
+        "vc": 113.6,
+        "u2v": 4.76,
+        "u2i": 4.32,
+        "de2_fw": 0.13
+      },
+      "fin": "2026-10-08 15:42:58",
+      "pares_total": 44,
+      "descartes": 1
+    },
+    {
+      "inicio": "2026-10-08 15:45:08",
+      "clase": "SEVERA",
+      "carga": "75%",
+      "pares_previos": 42,
+      "firmware": "f643484 fix(captura): --continuar ignora el archivo _descartes al buscar la sesion previa",
+      "nota": "REANUDACION desde el par 43 tras fijar de nuevo la resistencia; pulso de prueba 5.4-5.5 pp",
+      "parametros": {
+        "clase": 3,
+        "carga": "75%",
+        "pares": 50,
+        "port": "/dev/ttyACM0",
+        "continuar": true,
+        "duracion_pulso": 7.0,
+        "t_min_on": 3.0,
+        "cooldown": 20.0,
+        "umbral_e2": 0.0,
+        "nota": "REANUDACION desde el par 43 tras fijar de nuevo la resistencia; pulso de prueba 5.4-5.5 pp",
+        "tol_i": 0.06,
+        "tol_de2": 1.0
+      },
+      "previo": {
+        "ia": 5.16,
+        "ib": 5.88,
+        "ic": 5.14,
+        "va": 117.6,
+        "vb": 120.5,
+        "vc": 112.8,
+        "u2v": 4.83,
+        "u2i": 4.22,
+        "de2_fw": 0.15
+      },
+      "fin": "2026-10-08 15:48:39",
+      "pares_total": 48,
+      "descartes": 1
+    }
+  ],
+  "exclusiones": [
+    {
+      "pares": "32-33",
+      "desde": "2026-10-08 15:32:04",
+      "motivo": "lazo dejo de conducir (|dR2| 0.12-0.13 pp con SSR ordenado); original en piloto/cap_ENTRELAZADA_SEVERA_75%_20261008_1513_original_33pares.csv"
+    },
+    {
+      "pares": [
+        43,
+        44
+      ],
+      "desde": "2026-10-08 15:42:21",
+      "motivo": "lazo dejo de conducir por tercera vez (resistencia safada); original en piloto/"
+    },
+    {
+      "pares": [
+        48
+      ],
+      "desde": "2026-10-08 15:48:31",
+      "motivo": "lazo abierto por cuarta vez (resistencia); original en piloto/"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+tipo,inicio,t_inicio,fin,t_fin,duracion_s,sev_inicial,sev_max,ml_inicial,ml_max,p_inicial,i1_A,ia_A,ib_A,ic_A,n_tramas,motivo_fin,detalle
+CONEXION,2026-10-16 13:57:12,1792180632.848,,,,,,,,,,,,,,,Conexión perdida: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+ALARMA,2026-10-16 13:58:45,1792180725.341,2026-10-16 13:58:53,1792180733.578,8.2,LEVE,LEVE,0.620,0.620,0.584,5.5854,4.00,4.12,3.78,5,liberada por el firmware,
+SSR,2026-10-16 14:09:34,1792181374.544,,,,,,,,,,,,,,,[DEBUG SSR] Exito: GPIO 8 puesto en HIGH (3V)
+SSR,2026-10-16 14:09:44,1792181384.799,,,,,,,,,,,,,,,[DEBUG SSR] Apagado. Forzado: 0 | T_ON: 10248 ms
+ALARMA,2026-10-16 14:09:39,1792181379.659,2026-10-16 14:09:51,1792181391.192,11.5,INTER,INTER,3.066,3.369,2.864,7.9569,5.52,5.84,5.58,7,liberada por el firmware,
+SSR,2026-10-16 14:10:34,1792181434.609,,,,,,,,,,,,,,,[DEBUG SSR] Exito: GPIO 8 puesto en HIGH (3V)
+SSR,2026-10-16 14:10:44,1792181444.849,,,,,,,,,,,,,,,[DEBUG SSR] Apagado. Forzado: 0 | T_ON: 10239 ms
+ALARMA,2026-10-16 14:10:38,1792181438.995,2026-10-16 14:10:51,1792181451.232,12.2,INTER,INTER,2.930,3.022,2.929,7.9840,5.57,5.86,5.58,7,liberada por el firmware,
+ALARMA,2026-10-16 14:13:19,1792181599.461,2026-10-16 14:13:25,1792181605.885,6.4,LEVE,LEVE,0.513,0.513,0.480,7.7995,5.38,5.89,5.32,4,liberada por el firmware,
+SSR,2026-10-16 14:16:00,1792181760.802,,,,,,,,,,,,,,,[DEBUG SSR] Exito: GPIO 8 puesto en HIGH (3V)
+SSR,2026-10-16 14:16:11,1792181771.006,,,,,,,,,,,,,,,[DEBUG SSR] Apagado. Forzado: 0 | T_ON: 10229 ms
+SSR,2026-10-16 14:16:28,1792181788.343,,,,,,,,,,,,,,,[DEBUG SSR] Exito: GPIO 8 puesto en HIGH (3V)
+SSR,2026-10-16 14:16:38,1792181798.565,,,,,,,,,,,,,,,[DEBUG SSR] Apagado. Forzado: 0 | T_ON: 10223 ms
+SSR,2026-10-16 14:16:56,1792181816.019,,,,,,,,,,,,,,,[DEBUG SSR] Exito: GPIO 8 puesto en HIGH (3V)
+SSR,2026-10-16 14:17:06,1792181826.237,,,,,,,,,,,,,,,[DEBUG SSR] Apagado. Forzado: 0 | T_ON: 10220 ms
+ALARMA,2026-10-16 14:13:34,1792181614.802,2026-10-16 14:23:01,1792182181.819,567.0,LEVE,INTER,0.577,83.303,0.511,7.8066,5.36,5.92,5.33,333,liberada por el firmware,

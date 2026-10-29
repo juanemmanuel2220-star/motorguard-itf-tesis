@@ -1,0 +1,381 @@
+{
+  "inicio": "14:29:02",
+  "fin": "14:58:41",
+  "duracion_min": 29.7,
+  "partes_log": [
+    "sesion_20261013_142900_serial.log"
+  ],
+  "tramas": 811,
+  "intervalo_mediano_s": 1.789,
+  "intervalo_max_s": 383.0,
+  "huecos": [
+    {
+      "desde": "14:34:26",
+      "s": 7.9
+    },
+    {
+      "desde": "14:35:38",
+      "s": 383.0
+    },
+    {
+      "desde": "14:44:55",
+      "s": 12.8
+    }
+  ],
+  "motor": [
+    {
+      "hora": "14:29:02",
+      "estado": "OFF"
+    },
+    {
+      "hora": "14:45:44",
+      "estado": "WARMUP"
+    },
+    {
+      "hora": "14:46:45",
+      "estado": "ON"
+    }
+  ],
+  "comandos": {
+    "0": 9,
+    "1": 4,
+    "W": 2,
+    "s": 2
+  },
+  "pulsos_firmware": [
+    {
+      "t_cmd": "14:52:10",
+      "respuesta": "encendido",
+      "latencia_s": 0.156,
+      "t_on_ms": 5118,
+      "forzado": false
+    },
+    {
+      "t_cmd": "14:54:16",
+      "respuesta": "encendido",
+      "latencia_s": 0.434,
+      "t_on_ms": 8131,
+      "forzado": false
+    },
+    {
+      "t_cmd": "14:54:45",
+      "respuesta": "encendido",
+      "latencia_s": 0.421,
+      "t_on_ms": 8242,
+      "forzado": false
+    },
+    {
+      "t_cmd": "14:55:14",
+      "respuesta": "encendido",
+      "latencia_s": 0.389,
+      "t_on_ms": 8130,
+      "forzado": false
+    }
+  ],
+  "pulsos_app": [
+    {
+      "n": "1",
+      "serie": "1",
+      "pulso_en_serie": "1",
+      "taps_declarados": "INTER",
+      "solicitud": "2026-10-13 14:52:10",
+      "t_solicitud": "1791924730.639",
+      "duracion_pedida_s": "5",
+      "confirmacion_fw": "encendido",
+      "motivo_rechazo_fw": "",
+      "t_encendido": "1791924730.811",
+      "t_apagado": "1791924735.951",
+      "t_on_ms_fw": "5118",
+      "forzado_fw": "0",
+      "resultado": "completo",
+      "alarma_confirmada": "1",
+      "latencia_alarma_s": "5.1",
+      "sev_max": "INTER",
+      "ml_max_pp": "4.363",
+      "p_max_pp": "4.474",
+      "i1_A": "5.3660"
+    },
+    {
+      "n": "2",
+      "serie": "2",
+      "pulso_en_serie": "1",
+      "taps_declarados": "INTER",
+      "solicitud": "2026-10-13 14:54:16",
+      "t_solicitud": "1791924856.846",
+      "duracion_pedida_s": "8",
+      "confirmacion_fw": "encendido",
+      "motivo_rechazo_fw": "",
+      "t_encendido": "1791924857.282",
+      "t_apagado": "1791924865.406",
+      "t_on_ms_fw": "8131",
+      "forzado_fw": "0",
+      "resultado": "completo",
+      "alarma_confirmada": "1",
+      "latencia_alarma_s": "4.6",
+      "sev_max": "INTER",
+      "ml_max_pp": "4.382",
+      "p_max_pp": "4.484",
+      "i1_A": "5.3192"
+    },
+    {
+      "n": "3",
+      "serie": "2",
+      "pulso_en_serie": "2",
+      "taps_declarados": "INTER",
+      "solicitud": "2026-10-13 14:54:45",
+      "t_solicitud": "1791924885.416",
+      "duracion_pedida_s": "8",
+      "confirmacion_fw": "encendido",
+      "motivo_rechazo_fw": "",
+      "t_encendido": "1791924885.838",
+      "t_apagado": "1791924894.075",
+      "t_on_ms_fw": "8242",
+      "forzado_fw": "0",
+      "resultado": "completo",
+      "alarma_confirmada": "1",
+      "latencia_alarma_s": "5.4",
+      "sev_max": "INTER",
+      "ml_max_pp": "4.286",
+      "p_max_pp": "4.323",
+      "i1_A": "5.2833"
+    },
+    {
+      "n": "4",
+      "serie": "2",
+      "pulso_en_serie": "3",
+      "taps_declarados": "INTER",
+      "solicitud": "2026-10-13 14:55:14",
+      "t_solicitud": "1791924914.118",
+      "duracion_pedida_s": "8",
+      "confirmacion_fw": "encendido",
+      "motivo_rechazo_fw": "",
+      "t_encendido": "1791924914.509",
+      "t_apagado": "1791924922.638",
+      "t_on_ms_fw": "8130",
+      "forzado_fw": "0",
+      "resultado": "completo",
+      "alarma_confirmada": "1",
+      "latencia_alarma_s": "5.4",
+      "sev_max": "SEVERA",
+      "ml_max_pp": "4.786",
+      "p_max_pp": "4.675",
+      "i1_A": "5.2717"
+    }
+  ],
+  "alarmas": [
+    {
+      "tipo": "ALARMA",
+      "inicio": "2026-10-13 14:52:15",
+      "t_inicio": "1791924735.874",
+      "fin": "2026-10-13 14:52:20",
+      "t_fin": "1791924740.995",
+      "duracion_s": "5.1",
+      "sev_inicial": "INTER",
+      "sev_max": "INTER",
+      "ml_inicial": "4.363",
+      "ml_max": "4.363",
+      "p_inicial": "4.474",
+      "i1_A": "5.3537",
+      "ia_A": "3.86",
+      "ib_A": "3.95",
+      "ic_A": "3.59",
+      "n_tramas": "3",
+      "motivo_fin": "liberada por el firmware",
+      "detalle": ""
+    },
+    {
+      "tipo": "ALARMA",
+      "inicio": "2026-10-13 14:52:58",
+      "t_inicio": "1791924778.763",
+      "fin": "2026-10-13 14:53:25",
+      "t_fin": "1791924805.637",
+      "duracion_s": "26.9",
+      "sev_inicial": "LEVE",
+      "sev_max": "LEVE",
+      "ml_inicial": "0.668",
+      "ml_max": "0.936",
+      "p_inicial": "0.606",
+      "i1_A": "5.2863",
+      "ia_A": "3.71",
+      "ib_A": "4.04",
+      "ic_A": "3.51",
+      "n_tramas": "16",
+      "motivo_fin": "liberada por el firmware",
+      "detalle": ""
+    },
+    {
+      "tipo": "ALARMA",
+      "inicio": "2026-10-13 14:54:21",
+      "t_inicio": "1791924861.877",
+      "fin": "2026-10-13 14:54:30",
+      "t_fin": "1791924870.806",
+      "duracion_s": "8.9",
+      "sev_inicial": "INTER",
+      "sev_max": "INTER",
+      "ml_inicial": "4.132",
+      "ml_max": "4.382",
+      "p_inicial": "4.132",
+      "i1_A": "5.3368",
+      "ia_A": "3.84",
+      "ib_A": "3.94",
+      "ic_A": "3.59",
+      "n_tramas": "5",
+      "motivo_fin": "liberada por el firmware",
+      "detalle": ""
+    },
+    {
+      "tipo": "ALARMA",
+      "inicio": "2026-10-13 14:54:51",
+      "t_inicio": "1791924891.238",
+      "fin": "2026-10-13 14:54:59",
+      "t_fin": "1791924899.480",
+      "duracion_s": "8.2",
+      "sev_inicial": "INTER",
+      "sev_max": "INTER",
+      "ml_inicial": "4.179",
+      "ml_max": "4.286",
+      "p_inicial": "4.174",
+      "i1_A": "5.3496",
+      "ia_A": "3.84",
+      "ib_A": "3.94",
+      "ic_A": "3.60",
+      "n_tramas": "5",
+      "motivo_fin": "liberada por el firmware",
+      "detalle": ""
+    },
+    {
+      "tipo": "ALARMA",
+      "inicio": "2026-10-13 14:55:19",
+      "t_inicio": "1791924919.903",
+      "fin": "2026-10-13 14:55:28",
+      "t_fin": "1791924928.328",
+      "duracion_s": "8.4",
+      "sev_inicial": "SEVERA",
+      "sev_max": "SEVERA",
+      "ml_inicial": "4.599",
+      "ml_max": "4.786",
+      "p_inicial": "4.558",
+      "i1_A": "5.3459",
+      "ia_A": "3.85",
+      "ib_A": "3.94",
+      "ic_A": "3.60",
+      "n_tramas": "5",
+      "motivo_fin": "liberada por el firmware",
+      "detalle": ""
+    }
+  ],
+  "conexion": [
+    {
+      "tipo": "CONEXION",
+      "inicio": "2026-10-13 14:34:26",
+      "t_inicio": "1791923666.163",
+      "fin": "",
+      "t_fin": "",
+      "duracion_s": "",
+      "sev_inicial": "",
+      "sev_max": "",
+      "ml_inicial": "",
+      "ml_max": "",
+      "p_inicial": "",
+      "i1_A": "",
+      "ia_A": "",
+      "ib_A": "",
+      "ic_A": "",
+      "n_tramas": "",
+      "motivo_fin": "",
+      "detalle": "Conexión perdida: device reports readiness to read but returned no data (device disconnected or multiple access on port?)"
+    },
+    {
+      "tipo": "CONEXION",
+      "inicio": "2026-10-13 14:35:39",
+      "t_inicio": "1791923739.689",
+      "fin": "",
+      "t_fin": "",
+      "duracion_s": "",
+      "sev_inicial": "",
+      "sev_max": "",
+      "ml_inicial": "",
+      "ml_max": "",
+      "p_inicial": "",
+      "i1_A": "",
+      "ia_A": "",
+      "ib_A": "",
+      "ic_A": "",
+      "n_tramas": "",
+      "motivo_fin": "",
+      "detalle": "Conexión perdida: device reports readiness to read but returned no data (device disconnected or multiple access on port?)"
+    },
+    {
+      "tipo": "CONEXION",
+      "inicio": "2026-10-13 14:44:56",
+      "t_inicio": "1791924296.731",
+      "fin": "",
+      "t_fin": "",
+      "duracion_s": "",
+      "sev_inicial": "",
+      "sev_max": "",
+      "ml_inicial": "",
+      "ml_max": "",
+      "p_inicial": "",
+      "i1_A": "",
+      "ia_A": "",
+      "ib_A": "",
+      "ic_A": "",
+      "n_tramas": "",
+      "motivo_fin": "",
+      "detalle": "Conexión perdida: device reports readiness to read but returned no data (device disconnected or multiple access on port?)"
+    }
+  ],
+  "consultas": [
+    {
+      "cmd": "W",
+      "t": 1791924985.724,
+      "intervalo_tramas_s": 2.59
+    },
+    {
+      "cmd": "s",
+      "t": 1791924994.518,
+      "intervalo_tramas_s": 2.0
+    },
+    {
+      "cmd": "W",
+      "t": 1791924999.788,
+      "intervalo_tramas_s": 2.84
+    },
+    {
+      "cmd": "s",
+      "t": 1791925090.339,
+      "intervalo_tramas_s": 1.8
+    }
+  ],
+  "errores_app_log": 1,
+  "errores_detalle": [
+    "2026-10-13 14:34:28,775 ERROR   [Dummy-1] Error inesperado en la lectura del puerto; se cierra y se reintenta"
+  ],
+  "comprobaciones": [
+    {
+      "descripcion": "Cada '1' tuvo respuesta del firmware en ≤ 1 s",
+      "ok": true
+    },
+    {
+      "descripcion": "Todo pulso confirmado se apagó (mensaje 'Apagado' del firmware)",
+      "ok": true
+    },
+    {
+      "descripcion": "Ningún pulso pasó de 12 s encendido (T_ON del firmware)",
+      "ok": true
+    },
+    {
+      "descripcion": "Al conectar se envió '0' (primer comando de la sesión)",
+      "ok": true
+    },
+    {
+      "descripcion": "Solo salieron comandos permitidos ('1', '0', 'W', 'f', 's')",
+      "ok": true
+    },
+    {
+      "descripcion": "Sin errores en app.log durante la sesión",
+      "ok": false
+    }
+  ]
+}

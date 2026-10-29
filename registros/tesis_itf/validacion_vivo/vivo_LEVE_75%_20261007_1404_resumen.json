@@ -1,0 +1,496 @@
+{
+  "fecha": "2026-10-07 14:27:13",
+  "carga": "75%",
+  "clase": "LEVE",
+  "semilla": 1791403470,
+  "ang_falla": -81.4,
+  "umbral": 0.4,
+  "persistencia": 3,
+  "t_cola": 2.0,
+  "regla_primaria": "persistencia (v2)",
+  "plan": [
+    "SIMULADA",
+    "SIMULADA",
+    "SIMULADA",
+    "SIMULADA",
+    "REAL",
+    "REAL",
+    "SIMULADA",
+    "REAL",
+    "SIMULADA",
+    "REAL",
+    "REAL",
+    "SIMULADA",
+    "REAL",
+    "SIMULADA",
+    "REAL",
+    "REAL",
+    "REAL",
+    "SIMULADA",
+    "SIMULADA",
+    "SIMULADA",
+    "REAL",
+    "REAL",
+    "REAL",
+    "SIMULADA",
+    "SIMULADA",
+    "SIMULADA",
+    "REAL",
+    "SIMULADA",
+    "SIMULADA",
+    "SIMULADA",
+    "REAL",
+    "SIMULADA",
+    "REAL",
+    "REAL",
+    "REAL",
+    "REAL",
+    "SIMULADA",
+    "REAL",
+    "SIMULADA",
+    "REAL"
+  ],
+  "TP": 19,
+  "FN": 1,
+  "FP": 0,
+  "TN": 20,
+  "sensibilidad": 0.95,
+  "especificidad": 1.0,
+  "v1_ultima_trama": {
+    "TP": 19,
+    "FN": 1,
+    "FP": 0,
+    "TN": 20
+  },
+  "tramas_libres": 440,
+  "tramas_libres_sobre_umbral": 9,
+  "eventos_falsa_alarma_continua": 0,
+  "minutos_libres": 11.3,
+  "falsas_alarmas_por_hora": 0.0,
+  "pruebas": [
+    {
+      "prueba": 1,
+      "tipo": "SIMULADA",
+      "proys": [
+        0.19399102027351928,
+        0.08787397274483269,
+        0.06851347681775734
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 2,
+      "tipo": "SIMULADA",
+      "proys": [
+        0.09936168809545366,
+        0.12819422853681617,
+        0.16105539190218357
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 3,
+      "tipo": "SIMULADA",
+      "proys": [
+        -0.1406095969963005,
+        -0.15466883631356534
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 4,
+      "tipo": "SIMULADA",
+      "proys": [
+        0.22060452705619932,
+        0.09128191911404665
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 5,
+      "tipo": "REAL",
+      "proys": [
+        0.6025332822634548,
+        0.6866576417950082,
+        0.6400029697190042
+      ],
+      "alarma": true,
+      "alarma_v1": true
+    },
+    {
+      "prueba": 6,
+      "tipo": "REAL",
+      "proys": [
+        0.6633224448725822,
+        0.6261148901039102
+      ],
+      "alarma": true,
+      "alarma_v1": true
+    },
+    {
+      "prueba": 7,
+      "tipo": "SIMULADA",
+      "proys": [
+        0.0032660381268356273,
+        -0.006479346140088826
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 8,
+      "tipo": "REAL",
+      "proys": [
+        0.7972652141003717,
+        0.7426111248561503
+      ],
+      "alarma": true,
+      "alarma_v1": true
+    },
+    {
+      "prueba": 9,
+      "tipo": "SIMULADA",
+      "proys": [
+        0.004907829947749581,
+        0.020074034725220187,
+        -0.22359398091884017
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 10,
+      "tipo": "REAL",
+      "proys": [
+        0.479514790837497,
+        0.5785985346879634,
+        0.6175328604272384
+      ],
+      "alarma": true,
+      "alarma_v1": true
+    },
+    {
+      "prueba": 11,
+      "tipo": "REAL",
+      "proys": [
+        0.7744814470376987,
+        0.5856666630406336,
+        0.7678446991174749
+      ],
+      "alarma": true,
+      "alarma_v1": true
+    },
+    {
+      "prueba": 12,
+      "tipo": "SIMULADA",
+      "proys": [
+        -0.08719956272035301,
+        0.01584524773213586,
+        -0.15216770778241873
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 13,
+      "tipo": "REAL",
+      "proys": [
+        0.5653825105759258,
+        0.5293073107151925
+      ],
+      "alarma": true,
+      "alarma_v1": true
+    },
+    {
+      "prueba": 14,
+      "tipo": "SIMULADA",
+      "proys": [
+        -0.07774899628233277,
+        -0.27007030644032837,
+        -0.10652007670019012
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 15,
+      "tipo": "REAL",
+      "proys": [
+        0.6052678908059056,
+        0.5642548431187936,
+        0.7873703048561143
+      ],
+      "alarma": true,
+      "alarma_v1": true
+    },
+    {
+      "prueba": 16,
+      "tipo": "REAL",
+      "proys": [
+        0.5735090033779077,
+        0.9638415754618992
+      ],
+      "alarma": true,
+      "alarma_v1": true
+    },
+    {
+      "prueba": 17,
+      "tipo": "REAL",
+      "proys": [
+        0.6346761194184646,
+        0.5809966882084692
+      ],
+      "alarma": true,
+      "alarma_v1": true
+    },
+    {
+      "prueba": 18,
+      "tipo": "SIMULADA",
+      "proys": [
+        0.1661897632981711,
+        -0.29891439744375575,
+        -0.22958858581684674
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 19,
+      "tipo": "SIMULADA",
+      "proys": [
+        -0.6050625113516845,
+        -0.3257196972329364
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 20,
+      "tipo": "SIMULADA",
+      "proys": [
+        -0.07670018428585246,
+        -0.09321792342661331,
+        -0.12508957668218587
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 21,
+      "tipo": "REAL",
+      "proys": [
+        0.8915215784622336,
+        0.9502130444747394,
+        0.9035514623771276
+      ],
+      "alarma": true,
+      "alarma_v1": true
+    },
+    {
+      "prueba": 22,
+      "tipo": "REAL",
+      "proys": [
+        0.49557823913944943,
+        0.49546830363774735
+      ],
+      "alarma": true,
+      "alarma_v1": true
+    },
+    {
+      "prueba": 23,
+      "tipo": "REAL",
+      "proys": [
+        0.6226474639787942,
+        0.8049173832956651
+      ],
+      "alarma": true,
+      "alarma_v1": true
+    },
+    {
+      "prueba": 24,
+      "tipo": "SIMULADA",
+      "proys": [
+        -0.10091596015039889,
+        -0.09615057076272851
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 25,
+      "tipo": "SIMULADA",
+      "proys": [
+        -0.011495535182910412,
+        -0.1463985716701967,
+        -0.05183754743693223
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 26,
+      "tipo": "SIMULADA",
+      "proys": [
+        0.07492197666292084,
+        0.14554956522591495,
+        -0.11653546035787411
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 27,
+      "tipo": "REAL",
+      "proys": [
+        0.8326443721690665,
+        0.6115056434738786,
+        0.5936042003051735
+      ],
+      "alarma": true,
+      "alarma_v1": true
+    },
+    {
+      "prueba": 28,
+      "tipo": "SIMULADA",
+      "proys": [
+        -0.14951857957643944,
+        -0.1297424120101665,
+        -0.09571742504735098
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 29,
+      "tipo": "SIMULADA",
+      "proys": [
+        0.07519244956608373,
+        0.41739002696793687,
+        -0.01695090717150486
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 30,
+      "tipo": "SIMULADA",
+      "proys": [
+        0.0010587326300666132,
+        -0.15605892996987297,
+        -0.2358158694034907
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 31,
+      "tipo": "REAL",
+      "proys": [
+        0.7126945837352847,
+        0.7375577669261992,
+        0.7930228264876806
+      ],
+      "alarma": true,
+      "alarma_v1": true
+    },
+    {
+      "prueba": 32,
+      "tipo": "SIMULADA",
+      "proys": [
+        -0.041975794706621355,
+        0.01683680525333044,
+        0.1109924996786065
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 33,
+      "tipo": "REAL",
+      "proys": [
+        0.7942133681120664,
+        0.9016712181807747,
+        0.8503838498582666
+      ],
+      "alarma": true,
+      "alarma_v1": true
+    },
+    {
+      "prueba": 34,
+      "tipo": "REAL",
+      "proys": [
+        0.3120680201342203,
+        0.17933573628356922
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 35,
+      "tipo": "REAL",
+      "proys": [
+        0.9333667542749033,
+        0.7684169767937502
+      ],
+      "alarma": true,
+      "alarma_v1": true
+    },
+    {
+      "prueba": 36,
+      "tipo": "REAL",
+      "proys": [
+        0.664117814481833,
+        0.689296954052369,
+        0.792986525277036
+      ],
+      "alarma": true,
+      "alarma_v1": true
+    },
+    {
+      "prueba": 37,
+      "tipo": "SIMULADA",
+      "proys": [
+        0.10508435038416919,
+        0.3061957675791728
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 38,
+      "tipo": "REAL",
+      "proys": [
+        0.5276051969676611,
+        0.7295044096137192,
+        0.7192538449151689
+      ],
+      "alarma": true,
+      "alarma_v1": true
+    },
+    {
+      "prueba": 39,
+      "tipo": "SIMULADA",
+      "proys": [
+        0.17943421618239608,
+        0.1400131958653802
+      ],
+      "alarma": false,
+      "alarma_v1": false
+    },
+    {
+      "prueba": 40,
+      "tipo": "REAL",
+      "proys": [
+        0.3658262536542276,
+        0.4785233350184164,
+        0.44732416906480665
+      ],
+      "alarma": true,
+      "alarma_v1": true
+    }
+  ]
+}

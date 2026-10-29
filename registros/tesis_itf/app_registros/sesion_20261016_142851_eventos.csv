@@ -1,0 +1,2 @@
+tipo,inicio,t_inicio,fin,t_fin,duracion_s,sev_inicial,sev_max,ml_inicial,ml_max,p_inicial,i1_A,ia_A,ib_A,ic_A,n_tramas,motivo_fin,detalle
+CONEXION,2026-10-16 14:43:24,1792183404.307,,,,,,,,,,,,,,,Conexión perdida: device reports readiness to read but returned no data (device disconnected or multiple access on port?)

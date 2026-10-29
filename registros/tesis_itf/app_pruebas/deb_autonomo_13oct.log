@@ -1,0 +1,17 @@
+MotorGuard-ITF 1.0.0 (paquete autónomo) — construyendo en ubuntu:22.04
+debconf: delaying package configuration, since apt-utils is not installed
+Installed Python 3.12.15 in 76ms
+ + cpython-3.12.15-linux-x86_64-gnu (python3.12)
+warning: `/root/.local/bin` is not on your PATH. To use installed Python executables, run `export PATH="/root/.local/bin:$PATH"` or `uv python update-shell`.
+PySide6 6.11.2 · pyqtgraph 0.14.0 · numpy 2.5.2 · PyInstaller 6.22.3
+570 WARNING: Failed to collect submodules for 'pyqtgraph.opengl' because importing 'pyqtgraph.opengl' raised: ModuleNotFoundError: No module named 'OpenGL'
+29655 WARNING: Library not found: could not resolve 'libpangocairo-1.0.so.0', dependency of '/tmp/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/platformthemes/libqgtk3.so'.
+29656 WARNING: Library not found: could not resolve 'libpango-1.0.so.0', dependency of '/tmp/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/platformthemes/libqgtk3.so'.
+29656 WARNING: Library not found: could not resolve 'libharfbuzz.so.0', dependency of '/tmp/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/platformthemes/libqgtk3.so'.
+29656 WARNING: Library not found: could not resolve 'libatk-1.0.so.0', dependency of '/tmp/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/platformthemes/libqgtk3.so'.
+29656 WARNING: Library not found: could not resolve 'libgdk-3.so.0', dependency of '/tmp/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/platformthemes/libqgtk3.so'.
+29656 WARNING: Library not found: could not resolve 'libcairo.so.2', dependency of '/tmp/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/platformthemes/libqgtk3.so'.
+29656 WARNING: Library not found: could not resolve 'libcairo-gobject.so.2', dependency of '/tmp/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/platformthemes/libqgtk3.so'.
+29656 WARNING: Library not found: could not resolve 'libgtk-3.so.0', dependency of '/tmp/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/platformthemes/libqgtk3.so'.
+29656 WARNING: Library not found: could not resolve 'libgdk_pixbuf-2.0.so.0', dependency of '/tmp/venv/lib/python3.12/site-packages/PySide6/Qt/plugins/platformthemes/libqgtk3.so'.
+Listo: /home/luna/tesis_itf/dist/motorguard-itf-autonomo_1.0.0_amd64.deb (61M; instalado ~227 MB)

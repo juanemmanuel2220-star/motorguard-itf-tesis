@@ -1,0 +1,451 @@
+{
+  "nota": "POST HOC / exploratorio. Firmware 299a943 sin cambios; solo lectura de logs.",
+  "fidelidad_port": {
+    "25 %": {
+      "bloques": 794,
+      "p_dif_med": 0.0003,
+      "c_concuerda": 0.9962
+    },
+    "50 %": {
+      "bloques": 794,
+      "p_dif_med": 0.0002,
+      "c_concuerda": 1.0
+    },
+    "75 %": {
+      "bloques": 789,
+      "p_dif_med": 0.0002,
+      "c_concuerda": 1.0
+    },
+    "0 %": {
+      "bloques": 794,
+      "p_dif_med": 0.0002,
+      "c_concuerda": 1.0
+    }
+  },
+  "y2_todos": {
+    "re": -0.007523532884749648,
+    "im": -0.004885012173954183,
+    "mod": 0.008970333940695293,
+    "ang_grados": -147.00443119348512,
+    "r2": 0.03854470590102199
+  },
+  "prueba_larga": [
+    {
+      "tramo": "25 %",
+      "exposicion_min": 22.5,
+      "y2_cv": [
+        -0.0051,
+        -0.0034
+      ],
+      "r2_cv": 0.048,
+      "firmware": {
+        "eventos": 1,
+        "duraciones_s": [
+          972.6
+        ],
+        "sev_max": [
+          "INTER"
+        ],
+        "bloques_p_sobre_umbral": 52,
+        "bloques": 794,
+        "p_desv_std": 0.285
+      },
+      "compensado": {
+        "eventos": 1,
+        "duraciones_s": [
+          972.6
+        ],
+        "sev_max": [
+          "INTER"
+        ],
+        "bloques_p_sobre_umbral": 49,
+        "bloques": 794,
+        "p_desv_std": 0.277
+      }
+    },
+    {
+      "tramo": "50 %",
+      "exposicion_min": 22.5,
+      "y2_cv": [
+        -0.008,
+        -0.0045
+      ],
+      "r2_cv": 0.025,
+      "firmware": {
+        "eventos": 2,
+        "duraciones_s": [
+          10.2,
+          37.1
+        ],
+        "sev_max": [
+          "LEVE",
+          "LEVE"
+        ],
+        "bloques_p_sobre_umbral": 33,
+        "bloques": 794,
+        "p_desv_std": 0.231
+      },
+      "compensado": {
+        "eventos": 3,
+        "duraciones_s": [
+          10.2,
+          15.4,
+          5.1
+        ],
+        "sev_max": [
+          "LEVE",
+          "LEVE",
+          "LEVE"
+        ],
+        "bloques_p_sobre_umbral": 32,
+        "bloques": 794,
+        "p_desv_std": 0.225
+      }
+    },
+    {
+      "tramo": "75 %",
+      "exposicion_min": 22.5,
+      "y2_cv": [
+        -0.0082,
+        -0.0056
+      ],
+      "r2_cv": 0.017,
+      "firmware": {
+        "eventos": 4,
+        "duraciones_s": [
+          8.4,
+          7.1,
+          63.3,
+          5.1
+        ],
+        "sev_max": [
+          "LEVE",
+          "LEVE",
+          "LEVE",
+          "LEVE"
+        ],
+        "bloques_p_sobre_umbral": 29,
+        "bloques": 794,
+        "p_desv_std": 0.245
+      },
+      "compensado": {
+        "eventos": 3,
+        "duraciones_s": [
+          8.4,
+          7.1,
+          75.4
+        ],
+        "sev_max": [
+          "LEVE",
+          "LEVE",
+          "LEVE"
+        ],
+        "bloques_p_sobre_umbral": 27,
+        "bloques": 794,
+        "p_desv_std": 0.246
+      }
+    },
+    {
+      "tramo": "0 %",
+      "exposicion_min": 22.5,
+      "y2_cv": [
+        -0.0107,
+        -0.0077
+      ],
+      "r2_cv": -0.028,
+      "firmware": {
+        "eventos": 3,
+        "duraciones_s": [
+          11.5,
+          6.4,
+          12.0
+        ],
+        "sev_max": [
+          "LEVE",
+          "LEVE",
+          "LEVE"
+        ],
+        "bloques_p_sobre_umbral": 34,
+        "bloques": 794,
+        "p_desv_std": 0.256
+      },
+      "compensado": {
+        "eventos": 3,
+        "duraciones_s": [
+          8.4,
+          54.2,
+          214.7
+        ],
+        "sev_max": [
+          "LEVE",
+          "LEVE",
+          "LEVE"
+        ],
+        "bloques_p_sobre_umbral": 40,
+        "bloques": 794,
+        "p_desv_std": 0.265
+      }
+    }
+  ],
+  "prueba_larga_total": {
+    "firmware": {
+      "eventos": 10,
+      "tasa_h": 6.67
+    },
+    "compensado": {
+      "eventos": 10,
+      "tasa_h": 6.67
+    }
+  },
+  "validaciones_vivo": [
+    {
+      "sesion": "vivo_INTER_75%_20261008_1628",
+      "firmware_replay": {
+        "TP": 5,
+        "FN": 0,
+        "FP": 1,
+        "TN": 6,
+        "sev": [
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER"
+        ]
+      },
+      "compensado": {
+        "TP": 5,
+        "FN": 0,
+        "FP": 1,
+        "TN": 6,
+        "sev": [
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER"
+        ]
+      },
+      "reportado_en_su_dia": {
+        "TP": 5,
+        "FN": 0,
+        "FP": 1,
+        "TN": 6,
+        "decision": "firmware"
+      }
+    },
+    {
+      "sesion": "vivo_INTER_75%_20261009_1501",
+      "firmware_replay": {
+        "TP": 6,
+        "FN": 1,
+        "FP": 0,
+        "TN": 6,
+        "sev": [
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER"
+        ]
+      },
+      "compensado": {
+        "TP": 6,
+        "FN": 1,
+        "FP": 0,
+        "TN": 6,
+        "sev": [
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER"
+        ]
+      },
+      "reportado_en_su_dia": {
+        "TP": 6,
+        "FN": 1,
+        "FP": 0,
+        "TN": 6,
+        "decision": "firmware"
+      }
+    },
+    {
+      "sesion": "vivo_INTER_75%_20261009_1513",
+      "firmware_replay": {
+        "TP": 10,
+        "FN": 0,
+        "FP": 0,
+        "TN": 10,
+        "sev": [
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER"
+        ]
+      },
+      "compensado": {
+        "TP": 10,
+        "FN": 0,
+        "FP": 4,
+        "TN": 6,
+        "sev": [
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER",
+          "INTER"
+        ]
+      },
+      "reportado_en_su_dia": {
+        "TP": 10,
+        "FN": 0,
+        "FP": 0,
+        "TN": 10,
+        "decision": "firmware"
+      }
+    },
+    {
+      "sesion": "vivo_LEVE_75%_20261009_1526",
+      "firmware_replay": {
+        "TP": 0,
+        "FN": 3,
+        "FP": 0,
+        "TN": 2,
+        "sev": []
+      },
+      "compensado": {
+        "TP": 0,
+        "FN": 3,
+        "FP": 0,
+        "TN": 2,
+        "sev": []
+      },
+      "reportado_en_su_dia": {
+        "TP": 0,
+        "FN": 3,
+        "FP": 0,
+        "TN": 1,
+        "decision": "firmware"
+      }
+    },
+    {
+      "sesion": "vivo_LEVE_75%_20261009_1546",
+      "firmware_replay": {
+        "TP": 2,
+        "FN": 4,
+        "FP": 0,
+        "TN": 6,
+        "sev": [
+          "LEVE",
+          "LEVE"
+        ]
+      },
+      "compensado": {
+        "TP": 1,
+        "FN": 5,
+        "FP": 0,
+        "TN": 6,
+        "sev": [
+          "LEVE"
+        ]
+      },
+      "reportado_en_su_dia": {
+        "TP": 2,
+        "FN": 4,
+        "FP": 0,
+        "TN": 5,
+        "decision": "firmware"
+      }
+    },
+    {
+      "sesion": "vivo_SEVERA_75%_20261008_1612",
+      "firmware_replay": {
+        "TP": 10,
+        "FN": 0,
+        "FP": 0,
+        "TN": 10,
+        "sev": [
+          "SEVERA",
+          "SEVERA",
+          "SEVERA",
+          "SEVERA",
+          "SEVERA",
+          "SEVERA",
+          "SEVERA",
+          "SEVERA",
+          "SEVERA",
+          "SEVERA"
+        ]
+      },
+      "compensado": {
+        "TP": 10,
+        "FN": 0,
+        "FP": 0,
+        "TN": 10,
+        "sev": [
+          "SEVERA",
+          "SEVERA",
+          "SEVERA",
+          "SEVERA",
+          "SEVERA",
+          "SEVERA",
+          "SEVERA",
+          "SEVERA",
+          "SEVERA",
+          "SEVERA"
+        ]
+      },
+      "reportado_en_su_dia": {
+        "TP": 10,
+        "FN": 0,
+        "FP": 0,
+        "TN": 10,
+        "decision": "firmware"
+      }
+    },
+    {
+      "sesion": "vivo_SEVERA_75%_20261008_1637",
+      "firmware_replay": {
+        "TP": 2,
+        "FN": 0,
+        "FP": 0,
+        "TN": 4,
+        "sev": [
+          "SEVERA",
+          "SEVERA"
+        ]
+      },
+      "compensado": {
+        "TP": 2,
+        "FN": 0,
+        "FP": 0,
+        "TN": 4,
+        "sev": [
+          "SEVERA",
+          "SEVERA"
+        ]
+      },
+      "reportado_en_su_dia": {
+        "TP": 2,
+        "FN": 0,
+        "FP": 0,
+        "TN": 4,
+        "decision": "firmware"
+      }
+    }
+  ]
+}

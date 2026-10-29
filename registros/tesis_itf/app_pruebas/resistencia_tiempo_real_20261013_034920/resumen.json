@@ -1,0 +1,29 @@
+{
+  "fecha": "2026-10-13T11:04:35",
+  "horas": 4.0,
+  "simulador": "tests/simulador_firmware.py (solo pruebas)",
+  "periodo_s": 1.7,
+  "tramas_recibidas": 8400,
+  "tramas_esperadas": 8405,
+  "fraccion_tramas": 0.9993,
+  "pulsos_intentados": 479,
+  "pulsos_iniciados": 479,
+  "pulsos_registrados": 479,
+  "pulsos_sin_terminar": 0,
+  "alarmas": 466,
+  "desconexiones": 11,
+  "segundos_desconectado": 110.0,
+  "ssr_apagado_al_final": true,
+  "rss_inicio_mb": 153.7,
+  "rss_hora1_mb": 169.9,
+  "rss_final_mb": 102.9,
+  "crecimiento_mb": -67.0,
+  "cpu_medio_pct": 17.75,
+  "errores_app_log": 0,
+  "criterios": {
+    "crecimiento_max_mb": 30.0,
+    "errores": 0,
+    "fraccion_tramas_min": 0.95
+  },
+  "aprobada": true
+}

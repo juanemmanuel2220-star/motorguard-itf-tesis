@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Si usas este código o estos datos, cita la tesis como se indica abajo."
+title: "MotorGuard-ITF: código, datos y protocolos de la tesis"
+type: software
+authors:
+  - family-names: "Luna Velázquez"
+    given-names: "Juan Emmanuel"
+    affiliation: "Universidad Autónoma de San Luis Potosí"
+license: "GPL-3.0-or-later AND CC-BY-4.0"
+date-released: "2026-10-30"
+preferred-citation:
+  type: thesis
+  thesis-type: "Tesis de licenciatura"
+  title: "Detección de Fallas de Cortocircuito en Devanados de Motores de Inducción mediante Análisis de Firma de Corriente (MCSA) e Inteligencia Artificial"
+  authors:
+    - family-names: "Luna Velázquez"
+      given-names: "Juan Emmanuel"
+  institution:
+    name: "Universidad Autónoma de San Luis Potosí, Unidad Académica Multidisciplinaria Región Altiplano"
+    city: "Matehuala"
+    region: "San Luis Potosí"
+    country: "MX"
+  year: 2026

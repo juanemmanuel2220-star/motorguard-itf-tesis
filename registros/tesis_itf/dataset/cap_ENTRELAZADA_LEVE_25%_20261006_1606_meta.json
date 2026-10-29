@@ -1,0 +1,41 @@
+{
+  "sesiones": [
+    {
+      "inicio": "2026-10-06 16:06:44",
+      "clase": "LEVE",
+      "carga": "25%",
+      "pares_previos": 0,
+      "firmware": "2dff915 fix(banco): recalibracion de corrientes y comandos de diagnostico por fase",
+      "nota": "taps LEVE fase C; I_lazo=1.7 A (pinza, medida al 0%); carga 25%",
+      "parametros": {
+        "clase": 1,
+        "carga": "25%",
+        "pares": 50,
+        "port": "/dev/ttyACM0",
+        "continuar": false,
+        "duracion_pulso": 7.0,
+        "t_min_on": 3.0,
+        "cooldown": 8.0,
+        "umbral_e2": 0.0,
+        "nota": "taps LEVE fase C; I_lazo=1.7 A (pinza, medida al 0%); carga 25%",
+        "tol_i": 0.06,
+        "tol_de2": 0.35
+      },
+      "previo": {
+        "ia": 4.08,
+        "ib": 4.49,
+        "ic": 4.18,
+        "va": 120.9,
+        "vb": 126.0,
+        "vc": 125.3,
+        "u2v": 0.49,
+        "u2i": 4.05,
+        "de2_fw": 0.46
+      },
+      "fin": "2026-10-06 16:19:50",
+      "pares_total": 50,
+      "descartes": 1,
+      "observaciones": "Durante la sesion U2V subio de 0.4 a 4.2 %. A las 16:42 (50 % de carga) el multimetro midio 123.1/124.5/124.0 V fase-neutro (A/B/C, ~0.6 % desbalance) mientras el firmware leia 119.4/127.3/120.2 V (U2V 5.1 %): el desbalance es error de medicion de los ZMPT, no de la red. Columnas va/vb/V_rms/u2v/dv2 sospechosas a partir del par ~10. IC estable durante la sesion (4.19->4.18 A); las firmas por par (R2 de corrientes) se consideran validas."
+    }
+  ]
+}

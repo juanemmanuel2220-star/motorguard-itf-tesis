@@ -1,0 +1,15 @@
+{
+  "fecha": "2026-10-15 16:05:22",
+  "firmware": "299a943",
+  "nota": "validacion ciega 2, motor sano 50 %, lazo desconectado",
+  "exposicion_min": 60.0,
+  "eventos_falsa_alarma": 0,
+  "tasa_por_hora": 0.0,
+  "tasa_sup95_por_hora": 3.0,
+  "escalones_de_carga": 0,
+  "escalones_con_alarma_30s": 0,
+  "alarmas_tras_escalon": 0,
+  "alarmas_atascadas_>30s": 0,
+  "eventos": [],
+  "escalones": []
+}

@@ -1,0 +1,5 @@
+tipo,inicio,t_inicio,fin,t_fin,duracion_s,sev_inicial,sev_max,ml_inicial,ml_max,p_inicial,i1_A,ia_A,ib_A,ic_A,n_tramas,motivo_fin,detalle
+ALARMA,2026-10-12 16:03:26,1791842606.273,2026-10-12 16:03:34,1791842614.697,8.4,LEVE,LEVE,0.421,0.501,0.421,5.3696,3.82,3.98,3.62,5,liberada por el firmware,
+ALARMA,2026-10-12 16:03:44,1791842624.917,2026-10-12 16:04:51,1791842691.366,66.4,LEVE,LEVE,0.655,0.734,0.627,5.3530,3.80,3.97,3.62,39,liberada por el firmware,
+CONEXION,2026-10-12 16:13:30,1791843210.035,,,,,,,,,,,,,,,Conexión perdida: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+CONEXION,2026-10-12 16:31:07,1791844267.219,,,,,,,,,,,,,,,Conexión perdida: device reports readiness to read but returned no data (device disconnected or multiple access on port?)

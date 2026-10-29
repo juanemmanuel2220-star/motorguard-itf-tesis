@@ -1,0 +1,77 @@
+=== qwen3.5-4b 01:50
+  [ 1]   154 s  recall5=True  abst=False  ¿Cuál es el valor mínimo de resistencia de aislamiento 
+  [ 2]   128 s  recall5=True  abst=False  ¿Cómo cambia la resistencia de aislamiento con la tempe
+  [ 3]    82 s  recall5=True  abst=False  ¿Qué indica ABB hacer si la resistencia de aislamiento 
+  [ 4]   132 s  recall5=True  abst=False  ¿Qué precaución de seguridad pide ABB al medir la resis
+  [ 5]   100 s  recall5=True  abst=False  ¿Dónde debe medirse la resistencia de aislamiento de un
+  [ 6]   108 s  recall5=True  abst=False  ¿Cómo se define el índice de polarización?
+  [ 7]    92 s  recall5=True  abst=False  ¿Cuál es el índice de polarización mínimo recomendado p
+  [ 8]   145 s  recall5=False  abst=False  ¿Cómo se interpreta el valor del índice de polarización
+  [ 9]   131 s  recall5=True  abst=False  ¿Qué es la relación de absorción dieléctrica y qué valo
+  [10]   107 s  recall5=True  abst=False  ¿Qué tipo de deterioro detecta la prueba de comparación
+  [11]   111 s  recall5=True  abst=False  ¿Por qué no se recomienda la prueba de impulso (surge) 
+  [12]   119 s  recall5=True  abst=False  ¿Qué pruebas eléctricas de motores requieren desenergiz
+  [13]   121 s  recall5=True  abst=False  ¿Qué es el análisis de la firma de corriente del motor 
+  [14]   133 s  recall5=True  abst=False  ¿Cada cuánto se recomienda la prueba de resistencia de 
+  [15]    95 s  recall5=False  abst=False  ¿Cuánto debe calentarse un motor parado para evitar la 
+  [16]   124 s  recall5=True  abst=False  ¿Qué efecto tiene el desbalance de voltaje sobre un mot
+  [17]   149 s  recall5=True  abst=False  ¿Qué significa la severidad INTER que reporta el detect
+  [18]   123 s  recall5=True  abst=False  ¿Cuántas falsas alarmas por hora tuvo el detector en op
+  [19]   125 s  recall5=True  abst=False  ¿Qué conviene hacer después de arrancar el motor antes 
+  [20]   105 s  recall5=None  abst=False  ¿Cuál es el par nominal del motor ABB M1AA 145T-D4 del 
+  [21]    81 s  recall5=None  abst=True  ¿Qué marca y modelo de megóhmetro conviene comprar?
+  [22]    82 s  recall5=None  abst=True  ¿Cuál es la temperatura actual del devanado del motor?
+  [23]   138 s  recall5=None  abst=True  ¿Cuántas horas de vida útil le quedan al motor del banc
+-> rag_eval/preliminar/respuestas_local_qwen3.5-4b_20261013_0150.json
+-> rag_eval/preliminar/calificacion_local_qwen3.5-4b_20261013_0150.csv (calificar a mano)
+=== qwen3.5-2b 02:35
+  [ 1]    67 s  recall5=True  abst=True  ¿Cuál es el valor mínimo de resistencia de aislamiento 
+  [ 2]    51 s  recall5=True  abst=False  ¿Cómo cambia la resistencia de aislamiento con la tempe
+  [ 3]    31 s  recall5=True  abst=False  ¿Qué indica ABB hacer si la resistencia de aislamiento 
+  [ 4]    48 s  recall5=True  abst=False  ¿Qué precaución de seguridad pide ABB al medir la resis
+  [ 5]    60 s  recall5=True  abst=False  ¿Dónde debe medirse la resistencia de aislamiento de un
+  [ 6]    48 s  recall5=True  abst=False  ¿Cómo se define el índice de polarización?
+  [ 7]    53 s  recall5=True  abst=False  ¿Cuál es el índice de polarización mínimo recomendado p
+  [ 8]    57 s  recall5=False  abst=False  ¿Cómo se interpreta el valor del índice de polarización
+  [ 9]    68 s  recall5=True  abst=False  ¿Qué es la relación de absorción dieléctrica y qué valo
+  [10]    50 s  recall5=True  abst=False  ¿Qué tipo de deterioro detecta la prueba de comparación
+  [11]    45 s  recall5=True  abst=False  ¿Por qué no se recomienda la prueba de impulso (surge) 
+  [12]    49 s  recall5=True  abst=False  ¿Qué pruebas eléctricas de motores requieren desenergiz
+  [13]    59 s  recall5=True  abst=False  ¿Qué es el análisis de la firma de corriente del motor 
+  [14]    46 s  recall5=True  abst=False  ¿Cada cuánto se recomienda la prueba de resistencia de 
+  [15]    57 s  recall5=False  abst=False  ¿Cuánto debe calentarse un motor parado para evitar la 
+  [16]    62 s  recall5=True  abst=False  ¿Qué efecto tiene el desbalance de voltaje sobre un mot
+  [17]    66 s  recall5=True  abst=False  ¿Qué significa la severidad INTER que reporta el detect
+  [18]    63 s  recall5=True  abst=False  ¿Cuántas falsas alarmas por hora tuvo el detector en op
+  [19]    47 s  recall5=True  abst=False  ¿Qué conviene hacer después de arrancar el motor antes 
+  [20]    53 s  recall5=None  abst=False  ¿Cuál es el par nominal del motor ABB M1AA 145T-D4 del 
+  [21]    41 s  recall5=None  abst=False  ¿Qué marca y modelo de megóhmetro conviene comprar?
+  [22]    32 s  recall5=None  abst=True  ¿Cuál es la temperatura actual del devanado del motor?
+  [23]    63 s  recall5=None  abst=False  ¿Cuántas horas de vida útil le quedan al motor del banc
+-> rag_eval/preliminar/respuestas_local_qwen3.5-2b_20261013_0235.json
+-> rag_eval/preliminar/calificacion_local_qwen3.5-2b_20261013_0235.csv (calificar a mano)
+# Evaluación del asistente RAG
+
+Generado el 2026-10-13 02:55 con `herramientas/evaluar_rag.py --resumen` a partir de `respuestas_*.json` (métricas automáticas) y `calificacion_*.csv` (calificación a mano).
+
+## Qwen3.5-2B (local) (2026-10-13 02:55)
+
+- Recall@5 (página esperada entre los fragmentos recuperados): 17/19
+- La respuesta cita la página esperada: 17/19
+- Abstención correcta en preguntas sin fuente: 1/4
+- Abstención indebida en preguntas con fuente: 1/19
+- Tiempo mediano por respuesta: 53.1 s
+
+- Fuente: `calificacion_local_qwen3.5-2b_20261013_0235.csv`
+
+## Qwen3.5-4B (local) (2026-10-13 02:35)
+
+- Recall@5 (página esperada entre los fragmentos recuperados): 17/19
+- La respuesta cita la página esperada: 17/19
+- Abstención correcta en preguntas sin fuente: 3/4
+- Abstención indebida en preguntas con fuente: 0/19
+- Tiempo mediano por respuesta: 120.6 s
+
+- Fuente: `calificacion_local_qwen3.5-4b_20261013_0150.csv`
+
+FIN 02:55

@@ -1,0 +1,119 @@
+{
+  "sesiones": [
+    {
+      "inicio": "2026-10-08 13:30:11",
+      "clase": "SEVERA",
+      "carga": "0%",
+      "pares_previos": 0,
+      "firmware": "f643484 fix(captura): --continuar ignora el archivo _descartes al buscar la sesion previa",
+      "nota": "taps SEVERA fase C; resistor 5 ohm/700 W con ventilador; I_lazo=4.8 A (pinza 08-oct); fusible 10 A rapido; SSR de repuesto sobre disipador; carga 0%; cooldown 20 s; tol-de2 1.0 (firma ~7 pp); divisor de IC soldado 08-oct (sin recalibrar: IA/IB/IC 3.81/4.19/3.82 vs pinza 3.9/4.0/4.0)",
+      "parametros": {
+        "clase": 3,
+        "carga": "0%",
+        "pares": 50,
+        "port": "/dev/ttyACM0",
+        "continuar": false,
+        "duracion_pulso": 7.0,
+        "t_min_on": 3.0,
+        "cooldown": 20.0,
+        "umbral_e2": 0.0,
+        "nota": "taps SEVERA fase C; resistor 5 ohm/700 W con ventilador; I_lazo=4.8 A (pinza 08-oct); fusible 10 A rapido; SSR de repuesto sobre disipador; carga 0%; cooldown 20 s; tol-de2 1.0 (firma ~7 pp); divisor de IC soldado 08-oct (sin recalibrar: IA/IB/IC 3.81/4.19/3.82 vs pinza 3.9/4.0/4.0)",
+        "tol_i": 0.06,
+        "tol_de2": 1.0
+      },
+      "previo": {
+        "ia": 3.78,
+        "ib": 4.19,
+        "ic": 3.82,
+        "va": 121.1,
+        "vb": 125.4,
+        "vc": 120.0,
+        "u2v": 3.49,
+        "u2i": 3.49,
+        "de2_fw": 0.32
+      },
+      "fin": "2026-10-08 13:45:17",
+      "pares_total": 31,
+      "descartes": 1
+    },
+    {
+      "inicio": "2026-10-08 13:47:12",
+      "clase": "SEVERA",
+      "carga": "0%",
+      "pares_previos": 31,
+      "firmware": "f643484 fix(captura): --continuar ignora el archivo _descartes al buscar la sesion previa",
+      "nota": "REANUDACION desde el par 32 tras pausa del usuario; I_lazo=4.8 A (pinza a la mitad)",
+      "parametros": {
+        "clase": 3,
+        "carga": "0%",
+        "pares": 50,
+        "port": "/dev/ttyACM0",
+        "continuar": true,
+        "duracion_pulso": 7.0,
+        "t_min_on": 3.0,
+        "cooldown": 20.0,
+        "umbral_e2": 0.0,
+        "nota": "REANUDACION desde el par 32 tras pausa del usuario; I_lazo=4.8 A (pinza a la mitad)",
+        "tol_i": 0.06,
+        "tol_de2": 1.0
+      },
+      "previo": {
+        "ia": 3.75,
+        "ib": 4.13,
+        "ic": 3.77,
+        "va": 116.4,
+        "vb": 125.8,
+        "vc": 120.6,
+        "u2v": 3.58,
+        "u2i": 3.02,
+        "de2_fw": 0.36
+      },
+      "fin": "2026-10-08 13:56:08",
+      "pares_total": 48,
+      "descartes": 4
+    },
+    {
+      "inicio": "2026-10-08 13:58:30",
+      "clase": "SEVERA",
+      "carga": "0%",
+      "pares_previos": 47,
+      "firmware": "f643484 fix(captura): --continuar ignora el archivo _descartes al buscar la sesion previa",
+      "nota": "Completar 3 pares (47 validos tras excluir el par 31 sin inyeccion)",
+      "parametros": {
+        "clase": 3,
+        "carga": "0%",
+        "pares": 50,
+        "port": "/dev/ttyACM0",
+        "continuar": true,
+        "duracion_pulso": 7.0,
+        "t_min_on": 3.0,
+        "cooldown": 20.0,
+        "umbral_e2": 0.0,
+        "nota": "Completar 3 pares (47 validos tras excluir el par 31 sin inyeccion)",
+        "tol_i": 0.06,
+        "tol_de2": 1.0
+      },
+      "previo": {
+        "ia": 3.87,
+        "ib": 4.38,
+        "ic": 3.86,
+        "va": 120.1,
+        "vb": 126.3,
+        "vc": 119.7,
+        "u2v": 3.97,
+        "u2i": 3.02,
+        "de2_fw": 0.0
+      },
+      "fin": "2026-10-08 14:00:26",
+      "pares_total": 50,
+      "descartes": 1
+    }
+  ],
+  "exclusiones": [
+    {
+      "par": 31,
+      "timestamp": "2026-10-08 13:45:09",
+      "motivo": "pulso sin inyeccion efectiva: |dR2|=0.08 pp y dI~0 con SSR ordenado (lazo abierto en el momento de la pausa del usuario); filas originales en piloto/cap_ENTRELAZADA_SEVERA_0%_20261008_1330_original_48pares.csv"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "fecha": "2026-10-16 13:15:04",
+  "firmware": "299a943",
+  "nota": "motor sano 0 %, validacion ciega 2 (enmienda 1)",
+  "exposicion_min": 60.0,
+  "eventos_falsa_alarma": 12,
+  "tasa_por_hora": 12.0,
+  "tasa_sup95_por_hora": 19.44,
+  "escalones_de_carga": 0,
+  "escalones_con_alarma_30s": 0,
+  "alarmas_tras_escalon": 0,
+  "alarmas_atascadas_>30s": 5,
+  "eventos": [
+    {
+      "t_ini": 1792174531.8064837,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1792174595.1446416,
+      "duracion_s": 63.3
+    },
+    {
+      "t_ini": 1792175257.2150018,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1792175264.3318481,
+      "duracion_s": 7.1
+    },
+    {
+      "t_ini": 1792175275.8644614,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1792175284.7797801,
+      "duracion_s": 8.9
+    },
+    {
+      "t_ini": 1792176165.3215585,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1792176177.3514972,
+      "duracion_s": 12.0
+    },
+    {
+      "t_ini": 1792176524.9398987,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1792176588.2905397,
+      "duracion_s": 63.4
+    },
+    {
+      "t_ini": 1792177349.947241,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1792177412.601863,
+      "duracion_s": 62.7
+    },
+    {
+      "t_ini": 1792177593.3167298,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1792177603.550741,
+      "duracion_s": 10.2
+    },
+    {
+      "t_ini": 1792177649.545079,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1792177666.887152,
+      "duracion_s": 17.3
+    },
+    {
+      "t_ini": 1792177675.0994253,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1792177683.5317929,
+      "duracion_s": 8.4
+    },
+    {
+      "t_ini": 1792177692.4421775,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1792177755.0947692,
+      "duracion_s": 62.7
+    },
+    {
+      "t_ini": 1792177871.348273,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1792177918.6751924,
+      "duracion_s": 47.3
+    },
+    {
+      "t_ini": 1792178070.7107542,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1792178075.8378415,
+      "duracion_s": 5.1
+    }
+  ],
+  "escalones": []
+}

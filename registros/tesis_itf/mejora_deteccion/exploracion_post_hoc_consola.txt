@@ -1,0 +1,59 @@
+== angulo y |dz| de la firma en los pares (mediana por sesion), respecto a -81.4
+  INTER_0%    ang_med=  -1.0  |dz|_med= 3.69  |Q|_med= 0.08  nfal_min=3
+  INTER_25%   ang_med=  -0.1  |dz|_med= 3.16  |Q|_med= 0.04  nfal_min=3
+  INTER_50%   ang_med=  +1.8  |dz|_med= 2.36  |Q|_med= 0.08  nfal_min=3
+  INTER_75%   ang_med=  +0.3  |dz|_med= 2.14  |Q|_med= 0.06  nfal_min=3
+  LEVE_0%     ang_med=  +1.2  |dz|_med= 0.91  |Q|_med= 0.04  nfal_min=3
+  LEVE_25%    ang_med=  +0.3  |dz|_med= 0.79  |Q|_med= 0.07  nfal_min=3
+  LEVE_50%    ang_med=  +0.3  |dz|_med= 0.69  |Q|_med= 0.09  nfal_min=3
+  LEVE_75%    ang_med=  +1.9  |dz|_med= 0.64  |Q|_med= 0.09  nfal_min=4
+  SEVERA_0%   ang_med=  -3.8  |dz|_med= 7.09  |Q|_med= 0.47  nfal_min=4
+  SEVERA_25%  ang_med=  -2.4  |dz|_med= 7.04  |Q|_med= 0.28  nfal_min=4
+  SEVERA_50%  ang_med=  -2.3  |dz|_med= 5.65  |Q|_med= 0.25  nfal_min=3
+  SEVERA_75%  ang_med=  -1.0  |dz|_med= 5.25  |Q|_med= 0.08  nfal_min=4
+
+== pares con >= 4 bloques de falla (verificacion realizable para configuraciones de 4 bloques)
+  A racha0.40x3                {'INTER_0%': '2/2', 'INTER_25%': '14/14', 'INTER_50%': '36/36', 'INTER_75%': '35/35', 'LEVE_0%': '48/48', 'LEVE_25%': '44/45', 'LEVE_50%': '50/50', 'LEVE_75%': '48/50', 'SEVERA_0%': '42/43', 'SEVERA_25%': '44/46', 'SEVERA_50%': '22/22', 'SEVERA_75%': '50/55'}
+  media4>=0.5 sin compuerta    {'INTER_0%': '2/2', 'INTER_25%': '14/14', 'INTER_50%': '36/36', 'INTER_75%': '35/35', 'LEVE_0%': '48/48', 'LEVE_25%': '45/45', 'LEVE_50%': '47/50', 'LEVE_75%': '45/50', 'SEVERA_0%': '42/43', 'SEVERA_25%': '45/46', 'SEVERA_50%': '22/22', 'SEVERA_75%': '50/55'}
+  media4>=0.5 |Q|<=0.3         {'INTER_0%': '2/2', 'INTER_25%': '14/14', 'INTER_50%': '35/36', 'INTER_75%': '34/35', 'LEVE_0%': '48/48', 'LEVE_25%': '41/45', 'LEVE_50%': '44/50', 'LEVE_75%': '40/50', 'SEVERA_0%': '23/43', 'SEVERA_25%': '36/46', 'SEVERA_50%': '20/22', 'SEVERA_75%': '50/55'}
+  A + |Q|<=0.3                 {'INTER_0%': '2/2', 'INTER_25%': '14/14', 'INTER_50%': '32/36', 'INTER_75%': '34/35', 'LEVE_0%': '48/48', 'LEVE_25%': '38/45', 'LEVE_50%': '46/50', 'LEVE_75%': '42/50', 'SEVERA_0%': '2/43', 'SEVERA_25%': '13/46', 'SEVERA_50%': '7/22', 'SEVERA_75%': '44/55'}
+  A + angulo<=30               {'INTER_0%': '2/2', 'INTER_25%': '14/14', 'INTER_50%': '36/36', 'INTER_75%': '35/35', 'LEVE_0%': '48/48', 'LEVE_25%': '40/45', 'LEVE_50%': '48/50', 'LEVE_75%': '45/50', 'SEVERA_0%': '42/43', 'SEVERA_25%': '44/46', 'SEVERA_50%': '22/22', 'SEVERA_75%': '50/55'}
+  A + angulo<=45               {'INTER_0%': '2/2', 'INTER_25%': '14/14', 'INTER_50%': '36/36', 'INTER_75%': '35/35', 'LEVE_0%': '48/48', 'LEVE_25%': '44/45', 'LEVE_50%': '50/50', 'LEVE_75%': '48/50', 'SEVERA_0%': '42/43', 'SEVERA_25%': '44/46', 'SEVERA_50%': '22/22', 'SEVERA_75%': '50/55'}
+
+== en vivo (13 grupos, en muestra), variantes no declaradas
+  A                                  FA=12 (4.31/h) det={'LEVE': 47, 'INTER': 20, 'SEVERA': 12} ret=5.4
+  media4>=0.5 ref20 sin compuerta    FA= 8 (2.87/h) det={'LEVE': 50, 'INTER': 21, 'SEVERA': 12} ret=5.1
+  media3>=0.5 ref20 sin compuerta    FA=16 (5.75/h) det={'LEVE': 49, 'INTER': 21, 'SEVERA': 12} ret=4.1
+  A ref20                            FA=11 (3.95/h) det={'LEVE': 47, 'INTER': 20, 'SEVERA': 12} ret=5.4
+  A + LEVE 1 bloques extra           FA= 4 (1.44/h) INTER=21 SEV=12 LEVE(no medible)=44  durFA=[5.1, 8.2, 14.0, 971.2]
+  A + LEVE 2 bloques extra           FA= 2 (0.72/h) INTER=21 SEV=12 LEVE(no medible)=13  durFA=[6.9, 969.4]
+  A + LEVE 3 bloques extra           FA= 0 (0.0/h) INTER=21 SEV=12 LEVE(no medible)=0  durFA=[]
+  A + LEVE 4 bloques extra           FA= 0 (0.0/h) INTER=21 SEV=12 LEVE(no medible)=0  durFA=[]
+  LEVE_1007_1529 (pulsos 11.2 s) con +2: 6 / 10  A: 9
+simular2 sin opciones == A: True
+A                                            FA=12 (4.31/h) INTER=20/22 SEV=12/12 sevOK={'LEVE': 47, 'INTER': 20, 'SEVERA': 12} LEVE 11s=9/10 LEVE 7s=38/50 ret=5.4 durFA=[5, 6, 7, 8, 10, 12, 12, 22, 36, 37, 65, 973]
+A + angulo<=45                               FA=12 (4.31/h) INTER=20/22 SEV=12/12 sevOK={'LEVE': 47, 'INTER': 20, 'SEVERA': 12} LEVE 11s=9/10 LEVE 7s=38/50 ret=5.4 durFA=[5, 6, 7, 8, 8, 10, 12, 12, 14, 22, 36, 37]
+A + angulo<=30                               FA= 6 (2.16/h) INTER=21/22 SEV=12/12 sevOK={'LEVE': 47, 'INTER': 21, 'SEVERA': 12} LEVE 11s=9/10 LEVE 7s=38/50 ret=5.4 durFA=[5, 5, 6, 10, 14, 37]
+A congelando ref en el 1er bloque            FA=19 (6.82/h) INTER=17/22 SEV=12/12 sevOK={'LEVE': 44, 'INTER': 17, 'SEVERA': 12} LEVE 11s=9/10 LEVE 7s=35/50 ret=5.4 durFA=[5, 5, 6, 7, 8, 10, 12, 15, 22, 22, 26, 65, 79, 84, 162, 215, 288, 542, 973]
+A + LEVE +1                                  FA= 4 (1.44/h) INTER=21/22 SEV=12/12 sevOK={'LEVE': 44, 'INTER': 21, 'SEVERA': 12} LEVE 11s=8/10 LEVE 7s=36/50 ret=6.4 durFA=[5, 8, 14, 971]
+A + LEVE +1 congelando                       FA=13 (4.67/h) INTER=17/22 SEV=12/12 sevOK={'LEVE': 42, 'INTER': 17, 'SEVERA': 12} LEVE 11s=8/10 LEVE 7s=34/50 ret=6.4 durFA=[5, 5, 8, 10, 20, 20, 36, 77, 82, 177, 286, 540, 971]
+A + LEVE +1 congelando, ref 20 s             FA= 7 (2.51/h) INTER=20/22 SEV=12/12 sevOK={'LEVE': 44, 'INTER': 20, 'SEVERA': 12} LEVE 11s=8/10 LEVE 7s=36/50 ret=6.4 durFA=[5, 5, 10, 12, 77, 80, 82]
+A + LEVE +2                                  FA= 2 (0.72/h) INTER=21/22 SEV=12/12 sevOK={'LEVE': 13, 'INTER': 21, 'SEVERA': 12} LEVE 11s=6/10 LEVE 7s=7/50 ret=5.4 durFA=[7, 969]
+A + LEVE +2 congelando                       FA= 8 (2.87/h) INTER=17/22 SEV=12/12 sevOK={'LEVE': 16, 'INTER': 17, 'SEVERA': 12} LEVE 11s=7/10 LEVE 7s=9/50 ret=6.1 durFA=[7, 8, 18, 75, 80, 211, 285, 969]
+A + LEVE +2 congelando, ref 20 s             FA= 3 (1.08/h) INTER=20/22 SEV=12/12 sevOK={'LEVE': 16, 'INTER': 20, 'SEVERA': 12} LEVE 11s=7/10 LEVE 7s=9/50 ret=5.4 durFA=[7, 68, 80]
+A + LEVE +3                                  FA= 0 ( 0.0/h) INTER=21/22 SEV=12/12 sevOK={'LEVE': 0, 'INTER': 21, 'SEVERA': 12} LEVE 11s=0/10 LEVE 7s=0/50 ret=5.4 durFA=[]
+A + LEVE +3 congelando                       FA= 8 (2.87/h) INTER=17/22 SEV=12/12 sevOK={'LEVE': 7, 'INTER': 17, 'SEVERA': 12} LEVE 11s=7/10 LEVE 7s=0/50 ret=5.4 durFA=[5, 6, 17, 31, 78, 210, 283, 967]
+A + LEVE +3 congelando, ref 20 s             FA= 3 (1.08/h) INTER=20/22 SEV=12/12 sevOK={'LEVE': 8, 'INTER': 20, 'SEVERA': 12} LEVE 11s=7/10 LEVE 7s=1/50 ret=5.4 durFA=[7, 31, 78]
+simular2 sin opciones == A: True
+
+== combinaciones angulo x LEVE+1 (post hoc)
+A + angulo<=30                               FA= 6 (2.16/h) INTER=21/22 SEV=12/12 sevOK={'LEVE': 47, 'INTER': 21, 'SEVERA': 12} LEVE 11s=9/10 LEVE 7s=38/50 ret=5.4 durFA=[5, 5, 6, 10, 14, 37]
+A + angulo<=30 + LEVE +1                     FA= 3 (1.08/h) INTER=21/22 SEV=12/12 sevOK={'LEVE': 42, 'INTER': 21, 'SEVERA': 12} LEVE 11s=8/10 LEVE 7s=34/50 ret=6.4 durFA=[8, 10, 14]
+A + angulo<=35                               FA= 9 (3.23/h) INTER=21/22 SEV=12/12 sevOK={'LEVE': 47, 'INTER': 21, 'SEVERA': 12} LEVE 11s=9/10 LEVE 7s=38/50 ret=5.4 durFA=[5, 5, 6, 8, 8, 10, 12, 14, 37]
+A + angulo<=35 + LEVE +1                     FA= 3 (1.08/h) INTER=21/22 SEV=12/12 sevOK={'LEVE': 43, 'INTER': 21, 'SEVERA': 12} LEVE 11s=8/10 LEVE 7s=35/50 ret=6.4 durFA=[8, 10, 14]
+A + angulo<=40                               FA=11 (3.95/h) INTER=20/22 SEV=12/12 sevOK={'LEVE': 47, 'INTER': 20, 'SEVERA': 12} LEVE 11s=9/10 LEVE 7s=38/50 ret=5.4 durFA=[5, 6, 7, 8, 8, 10, 12, 12, 14, 36, 37]
+A + angulo<=40 + LEVE +1                     FA= 4 (1.44/h) INTER=21/22 SEV=12/12 sevOK={'LEVE': 43, 'INTER': 21, 'SEVERA': 12} LEVE 11s=8/10 LEVE 7s=35/50 ret=6.4 durFA=[5, 8, 10, 14]
+pares A + angulo<=30: {'INTER_0%': '50/50', 'INTER_25%': '50/50', 'INTER_50%': '50/50', 'INTER_75%': '52/52', 'LEVE_0%': '50/50', 'LEVE_25%': '44/51', 'LEVE_50%': '49/51', 'LEVE_75%': '45/50', 'SEVERA_0%': '42/43', 'SEVERA_25%': '44/46', 'SEVERA_50%': '24/24', 'SEVERA_75%': '50/55'}
+pares A + angulo<=35: {'INTER_0%': '50/50', 'INTER_25%': '50/50', 'INTER_50%': '50/50', 'INTER_75%': '52/52', 'LEVE_0%': '50/50', 'LEVE_25%': '48/51', 'LEVE_50%': '50/51', 'LEVE_75%': '48/50', 'SEVERA_0%': '42/43', 'SEVERA_25%': '44/46', 'SEVERA_50%': '24/24', 'SEVERA_75%': '50/55'}
+pares A + angulo<=40: {'INTER_0%': '50/50', 'INTER_25%': '50/50', 'INTER_50%': '50/50', 'INTER_75%': '52/52', 'LEVE_0%': '50/50', 'LEVE_25%': '49/51', 'LEVE_50%': '50/51', 'LEVE_75%': '48/50', 'SEVERA_0%': '42/43', 'SEVERA_25%': '44/46', 'SEVERA_50%': '24/24', 'SEVERA_75%': '50/55'}
+pares A: {'INTER_0%': '50/50', 'INTER_25%': '50/50', 'INTER_50%': '50/50', 'INTER_75%': '52/52', 'LEVE_0%': '50/50', 'LEVE_25%': '50/51', 'LEVE_50%': '51/51', 'LEVE_75%': '48/50', 'SEVERA_0%': '42/43', 'SEVERA_25%': '44/46', 'SEVERA_50%': '24/24', 'SEVERA_75%': '50/55'}

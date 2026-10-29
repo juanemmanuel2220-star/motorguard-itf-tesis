@@ -1,0 +1,40 @@
+{
+  "sesiones": [
+    {
+      "inicio": "2026-10-08 13:20:30",
+      "clase": "SEVERA",
+      "carga": "0%",
+      "pares_previos": 0,
+      "firmware": "f643484 fix(captura): --continuar ignora el archivo _descartes al buscar la sesion previa",
+      "nota": "taps SEVERA fase C; resistor 5 ohm/700 W con ventilador; I_lazo=4.8 A (pinza, pulso de prueba 08-oct); fusible 10 A rapido; SSR de repuesto sobre disipador; carga 0%; cooldown 20 s; firmware 81657f4/e4922bd",
+      "parametros": {
+        "clase": 3,
+        "carga": "0%",
+        "pares": 50,
+        "port": "/dev/ttyACM0",
+        "continuar": false,
+        "duracion_pulso": 7.0,
+        "t_min_on": 3.0,
+        "cooldown": 20.0,
+        "umbral_e2": 0.0,
+        "nota": "taps SEVERA fase C; resistor 5 ohm/700 W con ventilador; I_lazo=4.8 A (pinza, pulso de prueba 08-oct); fusible 10 A rapido; SSR de repuesto sobre disipador; carga 0%; cooldown 20 s; firmware 81657f4/e4922bd",
+        "tol_i": 0.06,
+        "tol_de2": 0.35
+      },
+      "previo": {
+        "ia": 3.82,
+        "ib": 4.0,
+        "ic": 3.44,
+        "va": 124.3,
+        "vb": 123.5,
+        "vc": 124.1,
+        "u2v": 1.09,
+        "u2i": 0.7,
+        "de2_fw": 0.26
+      },
+      "fin": "2026-10-08 13:23:27",
+      "pares_total": 4,
+      "descartes": 4
+    }
+  ]
+}

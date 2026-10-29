@@ -1,0 +1,10 @@
+15:14:43  app abierta; sesión sesion_20261013_151442 en /home/luna/tesis_itf/app_registros; pasos 5, 7, 8a, 8b
+MotorGuard-ITF WARNING: Qt: Failed to register with host portal QDBusError("org.freedesktop.portal.Error.Failed", "Could not register app ID: Connection already associated with an application ID")
+15:14:46  esperando: motor OFF
+15:15:46  esperando: motor OFF
+15:16:48  esperando: motor OFF
+15:17:48  esperando: motor WARMUP, 1.0 de 0 min en ON
+15:17:51  motor en ON desde hace 1.0 min: empiezan los pasos
+15:17:51  --- paso 5
+15:17:51  paso 5: clic en «Osciloscopio» (envía 'W')
+15:17:51  app cerrada (código 0)

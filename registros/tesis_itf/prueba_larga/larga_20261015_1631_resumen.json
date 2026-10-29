@@ -1,0 +1,52 @@
+{
+  "fecha": "2026-10-15 17:31:05",
+  "firmware": "299a943",
+  "nota": "validacion ciega 2, motor sano 75 %, lazo desconectado",
+  "exposicion_min": 60.0,
+  "eventos_falsa_alarma": 5,
+  "tasa_por_hora": 5.0,
+  "tasa_sup95_por_hora": 10.51,
+  "escalones_de_carga": 0,
+  "escalones_con_alarma_30s": 0,
+  "alarmas_tras_escalon": 0,
+  "alarmas_atascadas_>30s": 1,
+  "eventos": [
+    {
+      "t_ini": 1792103597.6173248,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1792103660.9592912,
+      "duracion_s": 63.3
+    },
+    {
+      "t_ini": 1792105869.2638457,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1792105887.7202516,
+      "duracion_s": 18.5
+    },
+    {
+      "t_ini": 1792106450.0106,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1792106458.4378963,
+      "duracion_s": 8.4
+    },
+    {
+      "t_ini": 1792106981.6409454,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1792106988.7622738,
+      "duracion_s": 7.1
+    },
+    {
+      "t_ini": 1792107061.6336322,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1792107065.4414454,
+      "abierto_al_final": true,
+      "duracion_s": 3.8
+    }
+  ],
+  "escalones": []
+}

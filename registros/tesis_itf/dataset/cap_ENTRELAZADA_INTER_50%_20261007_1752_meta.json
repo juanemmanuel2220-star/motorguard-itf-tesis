@@ -1,0 +1,41 @@
+{
+  "sesiones": [
+    {
+      "inicio": "2026-10-07 17:52:26",
+      "clase": "INTER",
+      "carga": "50%",
+      "pares_previos": 0,
+      "firmware": "4630994 feat(validacion): pulso y pausas configurables, declarados para la repeticion con firmware",
+      "nota": "REANUDACION desde el par 11 con SSR de repuesto (el original se degrado) y resistor nuevo 5 ohm/700 W con ventilador; I_lazo=3.3 A (pinza, 2 pulsos); firma de prueba ~2.5 pp, igual a los pares 1-10 (3.7->3.4 A)",
+      "parametros": {
+        "clase": 2,
+        "carga": "50%",
+        "pares": 50,
+        "port": "/dev/ttyACM0",
+        "continuar": true,
+        "duracion_pulso": 7.0,
+        "t_min_on": 3.0,
+        "cooldown": 15.0,
+        "umbral_e2": 0.0,
+        "nota": "REANUDACION desde el par 11 con SSR de repuesto (el original se degrado) y resistor nuevo 5 ohm/700 W con ventilador; I_lazo=3.3 A (pinza, 2 pulsos); firma de prueba ~2.5 pp, igual a los pares 1-10 (3.7->3.4 A)",
+        "tol_i": 0.06,
+        "tol_de2": 0.35
+      },
+      "previo": {
+        "ia": 4.91,
+        "ib": 5.34,
+        "ic": 4.79,
+        "va": 118.8,
+        "vb": 124.5,
+        "vc": 117.8,
+        "u2v": 4.22,
+        "u2i": 2.99,
+        "de2_fw": 0.36
+      },
+      "fin": "2026-10-07 18:11:38",
+      "pares_total": 50,
+      "descartes": 0,
+      "observaciones": "Captura completa con SSR de repuesto, resistor nuevo y ventilador. I_lazo (pinza): 3.3 A al inicio, 3.3 A a la mitad, 3.3 A al final. Firma estable (pares 1-10 2.43 pp, ultimos 10 2.38 pp). Nota: la sesion se creo como archivo nuevo porque --continuar tomo por error el archivo _descartes (corregido en el script)."
+    }
+  ]
+}

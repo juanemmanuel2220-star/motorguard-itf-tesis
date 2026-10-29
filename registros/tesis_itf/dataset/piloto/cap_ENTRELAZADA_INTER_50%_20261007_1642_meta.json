@@ -1,0 +1,41 @@
+{
+  "sesiones": [
+    {
+      "inicio": "2026-10-07 16:42:51",
+      "clase": "INTER",
+      "carga": "50%",
+      "pares_previos": 0,
+      "firmware": "4630994 feat(validacion): pulso y pausas configurables, declarados para la repeticion con firmware",
+      "nota": "taps INTER fase C; I_lazo=3.7 A al inicio (pinza, tras reapretar bornes); fusible 5 A; carga 50%; cooldown 15 s; firmware 81657f4/e4922bd",
+      "parametros": {
+        "clase": 2,
+        "carga": "50%",
+        "pares": 50,
+        "port": "/dev/ttyACM0",
+        "continuar": false,
+        "duracion_pulso": 7.0,
+        "t_min_on": 3.0,
+        "cooldown": 15.0,
+        "umbral_e2": 0.0,
+        "nota": "taps INTER fase C; I_lazo=3.7 A al inicio (pinza, tras reapretar bornes); fusible 5 A; carga 50%; cooldown 15 s; firmware 81657f4/e4922bd",
+        "tol_i": 0.06,
+        "tol_de2": 0.35
+      },
+      "previo": {
+        "ia": 4.88,
+        "ib": 5.32,
+        "ic": 4.82,
+        "va": 121.9,
+        "vb": 126.2,
+        "vc": 124.7,
+        "u2v": 0.82,
+        "u2i": 3.28,
+        "de2_fw": 0.09
+      },
+      "fin": "2026-10-07 16:47:05",
+      "pares_total": 10,
+      "descartes": 0,
+      "observaciones": "Detenida en 10 pares por calentamiento del resistor limitador: I_lazo 3.7 A al inicio -> 3.4 A al final (pinza); firma 2.55 -> 2.36 pp (media pares 1-5 vs 6-10), angulo estable -79..-84. El usuario confirmo que el resistor se calento. Reemplazada por cap_ENTRELAZADA_INTER_50%_20261007_1752 (50 pares, SSR nuevo, 3.3 A estable)."
+    }
+  ]
+}

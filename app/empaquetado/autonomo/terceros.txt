@@ -1,0 +1,50 @@
+
+Files: opt/motorguard-itf/_internal/PySide6/* opt/motorguard-itf/_internal/shiboken6/*
+Copyright: The Qt Company Ltd. and other contributors
+License: LGPL-3.0
+ PySide6 6.11.2 and the Qt 6 libraries it contains are used under the GNU Lesser General Public License
+ version 3, as shared libraries that can be replaced by the user. Source code:
+ https://download.qt.io/official_releases/QtForPython/ and https://download.qt.io/official_releases/qt/
+ On Debian systems, the complete text of the LGPL version 3 can be found in
+ "/usr/share/common-licenses/LGPL-3".
+
+Files: opt/motorguard-itf/_internal/pyqtgraph/*
+Copyright: Luke Campagnola and the pyqtgraph contributors
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+ associated documentation files, to deal in the Software without restriction, subject to including
+ the copyright notice and this permission notice in all copies or substantial portions of the Software.
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+Files: opt/motorguard-itf/_internal/numpy/* opt/motorguard-itf/_internal/numpy.libs/*
+Copyright: NumPy Developers; OpenBLAS contributors; Free Software Foundation (GCC runtime libraries)
+License: BSD-3-Clause and GPL-3.0-with-GCC-exception
+ NumPy and the bundled OpenBLAS are BSD-3-Clause licensed. The bundled GCC runtime libraries
+ (libgfortran, libquadmath) are GPL-3.0 with the GCC Runtime Library Exception.
+
+Files: opt/motorguard-itf/_internal/serial/*
+Copyright: Chris Liechti
+License: BSD-3-Clause
+
+Files: opt/motorguard-itf/_internal/libpython3* opt/motorguard-itf/_internal/base_library.zip
+Copyright: Python Software Foundation
+License: PSF-2.0
+ Python 3.12 (python-build-standalone distribution) under the Python Software Foundation License.
+
+Files: opt/motorguard-itf/motorguard-itf (pypdf, módulos de Python dentro del ejecutable)
+Copyright: Mathieu Fenniak, Martin Thoma and the pypdf contributors
+License: BSD-3-Clause
+
+Files: opt/motorguard-itf/motorguard-itf (keyring, jaraco.classes, jaraco.context, jaraco.functools, more-itertools, jeepney)
+Copyright: Jason R. Coombs and contributors (keyring, jaraco.*); Erik Rose and contributors (more-itertools); Thomas Kluyver and contributors (jeepney)
+License: MIT
+
+Files: opt/motorguard-itf/motorguard-itf (SecretStorage)
+Copyright: Dmitry Shachnev
+License: BSD-3-Clause
+
+Files: opt/motorguard-itf/_internal/cryptography/* opt/motorguard-itf/_internal/_cffi_backend*
+Copyright: The Python Cryptographic Authority and individual contributors; The OpenSSL Project (OpenSSL included in cryptography); Armin Rigo, Maciej Fijalkowski (cffi)
+License: (Apache-2.0 or BSD-3-Clause) and Apache-2.0 and MIT
+ cryptography is dual licensed Apache-2.0 / BSD-3-Clause and statically includes OpenSSL (Apache-2.0); cffi is MIT.
+ On Debian systems, the complete text of the Apache License 2.0 can be found in "/usr/share/common-licenses/Apache-2.0".

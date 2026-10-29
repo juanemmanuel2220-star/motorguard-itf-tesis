@@ -1,0 +1,40 @@
+{
+  "sesiones": [
+    {
+      "inicio": "2026-10-06 15:43:52",
+      "clase": "LEVE",
+      "carga": "0%",
+      "pares_previos": 0,
+      "firmware": "2dff915 fix(banco): recalibracion de corrientes y comandos de diagnostico por fase",
+      "nota": "taps LEVE fase C; I_lazo=1.7 A (medida previa a 50%); carga 0% (generador sin banco)",
+      "parametros": {
+        "clase": 1,
+        "carga": "0%",
+        "pares": 50,
+        "port": "/dev/ttyACM0",
+        "continuar": false,
+        "duracion_pulso": 7.0,
+        "t_min_on": 3.0,
+        "cooldown": 8.0,
+        "umbral_e2": 0.0,
+        "nota": "taps LEVE fase C; I_lazo=1.7 A (medida previa a 50%); carga 0% (generador sin banco)",
+        "tol_i": 0.06,
+        "tol_de2": 0.35
+      },
+      "previo": {
+        "ia": 3.99,
+        "ib": 4.19,
+        "ic": 3.88,
+        "va": 124.9,
+        "vb": 124.3,
+        "vc": 124.1,
+        "u2v": 0.95,
+        "u2i": 2.09,
+        "de2_fw": 0.31
+      },
+      "fin": "2026-10-06 15:46:55",
+      "pares_total": 11,
+      "descartes": 0
+    }
+  ]
+}

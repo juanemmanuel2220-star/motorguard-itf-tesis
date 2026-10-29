@@ -1,0 +1,10 @@
+tipo,inicio,t_inicio,fin,t_fin,duracion_s,sev_inicial,sev_max,ml_inicial,ml_max,p_inicial,i1_A,ia_A,ib_A,ic_A,n_tramas,motivo_fin,detalle
+SSR,2026-10-13 16:10:12,1791929412.793,,,,,,,,,,,,,,,[DEBUG SSR] Exito: GPIO 8 puesto en HIGH (3V)
+SSR,2026-10-13 16:10:19,1791929419.560,,,,,,,,,,,,,,,[DEBUG SSR] Apagado. Forzado: 0 | T_ON: 6721 ms
+ALARMA,2026-10-13 16:10:17,1791929417.222,2026-10-13 16:10:25,1791929425.942,8.7,INTER,INTER,2.773,2.773,2.775,7.5342,5.20,5.76,5.08,5,liberada por el firmware,
+SSR,2026-10-13 16:10:43,1791929443.049,,,,,,,,,,,,,,,[DEBUG SSR] Exito: GPIO 8 puesto en HIGH (3V)
+SSR,2026-10-13 16:10:48,1791929448.244,,,,,,,,,,,,,,,[DEBUG SSR] Apagado. Forzado: 0 | T_ON: 5135 ms
+ALARMA,2026-10-13 16:10:47,1791929447.897,2026-10-13 16:10:54,1791929454.627,6.7,INTER,INTER,2.523,2.523,2.837,7.5170,5.22,5.75,5.06,4,liberada por el firmware,
+SSR,2026-10-13 16:11:11,1791929471.641,,,,,,,,,,,,,,,[DEBUG SSR] Exito: GPIO 8 puesto en HIGH (3V)
+SSR,2026-10-13 16:11:16,1791929476.734,,,,,,,,,,,,,,,[DEBUG SSR] Apagado. Forzado: 0 | T_ON: 5116 ms
+ALARMA,2026-10-13 16:11:17,1791929477.020,2026-10-13 16:11:22,1791929482.207,5.2,INTER,INTER,2.214,2.214,2.949,7.5133,5.20,5.73,5.07,3,liberada por el firmware,

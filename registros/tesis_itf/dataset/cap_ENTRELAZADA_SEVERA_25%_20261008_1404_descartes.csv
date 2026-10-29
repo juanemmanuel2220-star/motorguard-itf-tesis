@@ -1,0 +1,8 @@
+timestamp,clase,carga,motivo,detalle
+2026-10-08 14:06:36,3,25%,Salto dentro del pulso,IA 4.42->4.33; IC 4.48->4.42
+2026-10-08 14:07:26,3,25%,SANO inestable,IA 4.07->4.14
+2026-10-08 14:07:27,3,25%,SANO inestable,IA 4.07->4.16
+2026-10-08 14:07:29,3,25%,SANO inestable,IA 4.07->4.17; IB 4.66->4.73
+2026-10-08 14:18:39,3,25%,SANO inestable,IA 4.22->4.28
+2026-10-08 14:25:53,3,25%,SANO inestable,IB 4.64->4.70
+2026-10-08 14:25:55,3,25%,SANO inestable,IB 4.64->4.70

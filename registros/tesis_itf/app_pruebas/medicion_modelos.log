@@ -1,0 +1,20 @@
+== Qwen3.5-4B
+   169.9 s  citadas 1.0  El detector confirmó una alarma INTER (posible cortocircuito
+   140.8 s  citadas 1.0  ¿Cómo se calcula el índice de polarización de un devanado?
+   121.9 s  citadas 1.0  ¿Qué precauciones hay que tomar antes de medir la resistenci
+   110.8 s  citadas 1.0  ¿Cómo se evita la condensación en el devanado de un motor qu
+   125.5 s  citadas 1.0  ¿Qué es el análisis de la firma de corriente del motor?
+   123.3 s  citadas 1.0  ¿Con qué frecuencia se recomienda dar mantenimiento a los mo
+   148.4 s  citadas 1.0  ¿Qué significa la severidad INTER que reporta el detector?
+  alarma: 169.9 s · citadas 1.0 · RAM {'llm_mb': 5681, 'emb_mb': 1649} · cumple=False
+== Qwen3.5-2B
+    74.2 s  citadas 1.0  El detector confirmó una alarma INTER (posible cortocircuito
+    49.8 s  citadas 1.0  ¿Cómo se calcula el índice de polarización de un devanado?
+    47.7 s  citadas 1.0  ¿Qué precauciones hay que tomar antes de medir la resistenci
+    52.2 s  citadas 1.0  ¿Cómo se evita la condensación en el devanado de un motor qu
+    56.0 s  citadas 1.0  ¿Qué es el análisis de la firma de corriente del motor?
+    49.8 s  citadas 1.0  ¿Con qué frecuencia se recomienda dar mantenimiento a los mo
+    61.6 s  citadas 1.0  ¿Qué significa la severidad INTER que reporta el detector?
+  alarma: 74.2 s · citadas 1.0 · RAM {'llm_mb': 2492, 'emb_mb': 1649} · cumple=True
+-> /home/luna/tesis_itf/rag_eval/medicion_modelos.json
+salida=0

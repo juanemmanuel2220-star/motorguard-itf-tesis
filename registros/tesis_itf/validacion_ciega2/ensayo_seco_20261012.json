@@ -1,0 +1,258 @@
+{
+ "NOTA": "ENSAYO EN SECO, NO ES UN RESULTADO. Se corrio analisis_validacion_ciega2.py --fecha 20261012 sobre la prueba larga del 12-oct (incluye el intento interrumpido de las 13:03) solo para comprobar que el analisis corre. El RF congelado se entreno con estos mismos datos, asi que sus cifras no significan nada. No hay sesiones con falla, por eso \"deteccion\" esta vacio. Sirve solo como ejemplo de la estructura del JSON final (resultado_validacion_ciega2_20261015.json).",
+ "protocolo": "PROTOCOLO_VALIDACION_CIEGA_2.md",
+ "fecha_datos": "20261012",
+ "sklearn": "1.7.2",
+ "excluidas": [],
+ "grupos": {
+  "larga_20261012_1303": {
+   "clase": "SANO",
+   "carga": null,
+   "pulsos": 0,
+   "regla": {
+    "fa": 0,
+    "det": []
+   },
+   "rf": {
+    "fa": 0,
+    "det": []
+   },
+   "regla_completa": {
+    "fa": 0,
+    "det": [],
+    "durs_fa": []
+   },
+   "variante": {
+    "fa": 0,
+    "det": [],
+    "durs_fa": []
+   },
+   "firmware": {
+    "fa": 0,
+    "resumen_en_vivo": {
+     "TP": null,
+     "FN": null,
+     "FP": null,
+     "TN": null,
+     "decision": null,
+     "severidad": null,
+     "sev_ok": null
+    }
+   }
+  },
+  "larga_20261012_1319": {
+   "clase": "SANO",
+   "carga": null,
+   "pulsos": 0,
+   "regla": {
+    "fa": 3,
+    "det": []
+   },
+   "rf": {
+    "fa": 1,
+    "det": []
+   },
+   "regla_completa": {
+    "fa": 1,
+    "det": [],
+    "durs_fa": [
+     972.6
+    ]
+   },
+   "variante": {
+    "fa": 1,
+    "det": [],
+    "durs_fa": [
+     10.2
+    ]
+   },
+   "firmware": {
+    "fa": 2,
+    "resumen_en_vivo": {
+     "TP": null,
+     "FN": null,
+     "FP": null,
+     "TN": null,
+     "decision": null,
+     "severidad": null,
+     "sev_ok": null
+    }
+   }
+  },
+  "larga_20261012_1350": {
+   "clase": "SANO",
+   "carga": null,
+   "pulsos": 0,
+   "regla": {
+    "fa": 2,
+    "det": []
+   },
+   "rf": {
+    "fa": 0,
+    "det": []
+   },
+   "regla_completa": {
+    "fa": 2,
+    "det": [],
+    "durs_fa": [
+     10.2,
+     37.1
+    ]
+   },
+   "variante": {
+    "fa": 2,
+    "det": [],
+    "durs_fa": [
+     8.2,
+     14.0
+    ]
+   },
+   "firmware": {
+    "fa": 2,
+    "resumen_en_vivo": {
+     "TP": null,
+     "FN": null,
+     "FP": null,
+     "TN": null,
+     "decision": null,
+     "severidad": null,
+     "sev_ok": null
+    }
+   }
+  },
+  "larga_20261012_1422": {
+   "clase": "SANO",
+   "carga": null,
+   "pulsos": 0,
+   "regla": {
+    "fa": 4,
+    "det": []
+   },
+   "rf": {
+    "fa": 0,
+    "det": []
+   },
+   "regla_completa": {
+    "fa": 4,
+    "det": [],
+    "durs_fa": [
+     8.4,
+     7.1,
+     64.6,
+     5.1
+    ]
+   },
+   "variante": {
+    "fa": 0,
+    "det": [],
+    "durs_fa": []
+   },
+   "firmware": {
+    "fa": 4,
+    "resumen_en_vivo": {
+     "TP": null,
+     "FN": null,
+     "FP": null,
+     "TN": null,
+     "decision": null,
+     "severidad": null,
+     "sev_ok": null
+    }
+   }
+  },
+  "larga_20261012_1457": {
+   "clase": "SANO",
+   "carga": null,
+   "pulsos": 0,
+   "regla": {
+    "fa": 3,
+    "det": []
+   },
+   "rf": {
+    "fa": 1,
+    "det": []
+   },
+   "regla_completa": {
+    "fa": 3,
+    "det": [],
+    "durs_fa": [
+     11.5,
+     6.4,
+     12.0
+    ]
+   },
+   "variante": {
+    "fa": 0,
+    "det": [],
+    "durs_fa": []
+   },
+   "firmware": {
+    "fa": 3,
+    "resumen_en_vivo": {
+     "TP": null,
+     "FN": null,
+     "FP": null,
+     "TN": null,
+     "decision": null,
+     "severidad": null,
+     "sev_ok": null
+    }
+   }
+  }
+ },
+ "falsas_alarmas": {
+  "regla": {
+   "fa": 12,
+   "horas": 1.624,
+   "fa_h": 7.39,
+   "ic95": [
+    3.82,
+    12.91
+   ]
+  },
+  "rf": {
+   "fa": 2,
+   "horas": 1.624,
+   "fa_h": 1.23,
+   "ic95": [
+    0.15,
+    4.45
+   ]
+  },
+  "regla_completa": {
+   "fa": 10,
+   "horas": 1.624,
+   "fa_h": 6.16,
+   "ic95": [
+    2.95,
+    11.33
+   ]
+  },
+  "variante": {
+   "fa": 3,
+   "horas": 1.624,
+   "fa_h": 1.85,
+   "ic95": [
+    0.38,
+    5.4
+   ]
+  },
+  "firmware": {
+   "fa": 11,
+   "horas": 1.624,
+   "fa_h": 6.77,
+   "ic95": [
+    3.38,
+    12.12
+   ]
+  }
+ },
+ "H1": {
+  "regla": 12,
+  "rf": 2,
+  "p_unilateral": 0.0064697265625,
+  "confirmada": true
+ },
+ "deteccion": {},
+ "H2": {}
+}

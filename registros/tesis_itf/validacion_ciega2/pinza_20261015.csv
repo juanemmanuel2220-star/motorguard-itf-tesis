@@ -1,0 +1,18 @@
+hora,sesion,carga,clase,momento,corriente_A,clase_confirmada_TFT_o_app,nota
+11:35,pulso_prueba,0%,LEVE,prueba_aislada,1.7,LEVE (Arduino C=1 SEV=LEVE; P=+0.94..+1.19 pp),pulso de 8 s antes de la sesion; no entra en el analisis
+11:56,vivo_LEVE_0%_20261015_1140,0%,LEVE,mitad (~prueba 23),1.7,,lectura durante un pulso real sin tocar el lazo
+12:00,vivo_LEVE_0%_20261015_1140,0%,LEVE,~prueba 31 (pulso de las 12:00:10),1.8,Arduino marco INTER (artefacto: alarma falsa enclavada desde 11:59:41 por escalon de IA 3.71->3.79 A a las 11:59:38 + pulso LEVE),lectura reportada por el autor
+12:05,vivo_LEVE_0%_20261015_1140,0%,LEVE,final (~prueba 39),1.7,,lectura durante un pulso real sin tocar el lazo
+12:15,pulso_prueba,0%,INTER,prueba_aislada,3.7,INTER (Arduino C=1 SEV=INTER; P=+3.85..+4.27 pp),pulso de 8 s antes de la sesion; no entra en el analisis
+12:18,vivo_INTER_0%_20261015_1215,0%,INTER,inicio (3 pruebas completas),4.0,,lectura reportada por el autor durante un pulso real
+12:27,vivo_INTER_0%_20261015_1215,0%,INTER,mitad-tarde (~prueba 17),3.7,,lectura durante un pulso real sin tocar el lazo
+12:42,pulso_prueba,25%,LEVE,prueba_aislada (3 seguidas),1.7,LEVE (C=1 SEV=LEVE; P=+0.8..+1.3 pp),pulso de 8 s antes de la sesion; no entra en el analisis
+12:42,pulso_prueba,25%,LEVE,prueba_aislada (3 seguidas),1.7,LEVE (C=1 SEV=LEVE; P=+0.8..+1.3 pp),pulso de 8 s antes de la sesion; no entra en el analisis
+12:43,pulso_prueba,25%,LEVE,prueba_aislada (3 seguidas),1.7,LEVE (C=1 SEV=LEVE; P=+0.8..+1.3 pp),pulso de 8 s antes de la sesion; no entra en el analisis
+12:57,vivo_LEVE_25%_20261015_1243,25%,LEVE,mitad (~prueba 20),1.9,,lectura durante un pulso real sin tocar el lazo
+13:04,vivo_LEVE_25%_20261015_1243,25%,LEVE,~prueba 30,1.8,,lectura reportada por el autor durante un pulso real
+13:10,vivo_LEVE_25%_20261015_1243,25%,LEVE,final (~prueba 39),2.0,,lectura durante un pulso real sin tocar el lazo
+13:22,pulso_prueba,25%,INTER,prueba_aislada 1,4.4,INTER (P=+4.03..+4.07 pp),no entra en el analisis
+13:22,pulso_prueba,25%,INTER,prueba_aislada 2,4.3,INTER (P=+4.09..+4.18 pp),no entra en el analisis
+13:30,vivo_INTER_25%_20261015_1323,25%,INTER,mitad (~prueba 10),4.3,,lectura durante un pulso real sin tocar el lazo
+13:36,vivo_INTER_25%_20261015_1323,25%,INTER,final (~prueba 18),4.4,,lectura durante un pulso real sin tocar el lazo

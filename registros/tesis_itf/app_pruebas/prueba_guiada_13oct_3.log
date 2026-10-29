@@ -1,0 +1,25 @@
+15:22:02  app abierta; sesión sesion_20261013_152202 en /home/luna/tesis_itf/app_registros; pasos 5, 7, 8a, 8b
+MotorGuard-ITF WARNING: Qt: Failed to register with host portal QDBusError("org.freedesktop.portal.Error.Failed", "Could not register app ID: Connection already associated with an application ID")
+15:22:05  motor en ON (arranque declarado por el operador): empiezan los pasos
+15:22:05  --- paso 5
+15:22:05  paso 5: clic en «Osciloscopio» (envía 'W')
+15:22:11  paso 5: clic en «Espectro 50–70 Hz» (envía 'f')
+15:22:17  paso 5: clic en «THD e I_neg» (envía 's')
+15:22:23  paso 5: tres consultas pedidas; espero 8 s a la última respuesta
+15:22:31  --- paso 7
+15:22:31  paso 7: INTER, 3 pulso(s) de 5 s, pausa 20 s. Se abre el diálogo: CONFIRMA TÚ en la pantalla (o Cancelar para detener la prueba)
+15:22:36  paso 7: confirmado por el operador; serie en curso
+15:23:33  paso 7: terminado; último pulso: completo (T_ON 5126 ms)
+15:23:34  --- paso 8a
+15:23:47  paso 8a: INTER, 1 pulso(s) de 11 s, pausa 20 s. Se abre el diálogo: CONFIRMA TÚ en la pantalla (o Cancelar para detener la prueba)
+15:25:43  paso 8a: confirmado por el operador; serie en curso
+15:25:43  paso 8a: SSR encendido (confirmado por el firmware); paro en 3 s
+15:25:46  paso 8a: clic en PARO
+15:25:46  paso 8a: terminado; último pulso: PARO manual (T_ON 2988 ms)
+15:25:48  --- paso 8b
+15:26:01  paso 8b: INTER, 1 pulso(s) de 11 s, pausa 20 s. Se abre el diálogo: CONFIRMA TÚ en la pantalla (o Cancelar para detener la prueba)
+15:26:32  paso 8b: confirmado por el operador; serie en curso
+15:26:32  paso 8b: SSR encendido (confirmado por el firmware); cerrar en 3 s
+15:26:35  paso 8b: se cierra la app con el SSR encendido
+15:26:35  app cerrada (código 0)
+salida=0

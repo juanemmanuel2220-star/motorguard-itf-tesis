@@ -1,0 +1,4 @@
+tipo,inicio,t_inicio,fin,t_fin,duracion_s,sev_inicial,sev_max,ml_inicial,ml_max,p_inicial,i1_A,ia_A,ib_A,ic_A,n_tramas,motivo_fin,detalle
+SSR,2026-10-09 15:14:18,1791580458.862,,,,,,,,,,,,,,,[DEBUG SSR] Exito: GPIO 8 puesto en HIGH (3V)
+SSR,2026-10-09 15:14:30,1791580470.098,,,,,,,,,,,,,,,[DEBUG SSR] Apagado. Forzado: 0 | T_ON: 11215 ms
+ALARMA,2026-10-09 15:14:24,1791580464.971,2026-10-09 15:14:35,1791580475.206,10.2,INTER,INTER,2.251,2.840,2.224,7.9102,5.60,5.82,5.42,6,liberada por el firmware,

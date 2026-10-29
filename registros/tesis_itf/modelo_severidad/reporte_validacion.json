@@ -1,0 +1,223 @@
+{
+  "diseno": [
+    "",
+    "Datos: pares SANO/FALLA de ~/tesis_itf/dataset (sin piloto/), capturados el 06-08 oct con",
+    "la calibracion del 06-oct. Clases LEVE (taps 1.7 A), INTER (3.3-3.7 A), SEVERA (4.8-5.2 A);",
+    "cargas 0/25/50/75 %. La etapa 2 solo clasifica pares con falla (la deteccion es la etapa 1).",
+    "",
+    "Variables (las que el firmware ya calcula en cada bloque):",
+    "  mag  = |dR2| / |I1| (pp), dR2 = R2_falla - R2_sano",
+    "  proy = Re{dR2 * exp(-j*(-81.4 deg))} (pp), componente sobre la direccion de falla",
+    "  i1   = |I1| del SANO del par (A pico), indicador de carga",
+    "",
+    "Modelos:",
+    "  M1 (PRIMARIO): dos umbrales sobre mag (LEVE < u1 <= INTER < u2 <= SEVERA). Cada umbral es el",
+    "     punto medio entre las clases vecinas en entrenamiento (o el de maxima exactitud si se",
+    "     traslapan). Es el modelo mas simple de embeber y de explicar. Nota: los rangos por archivo",
+    "     se vieron durante la captura, por eso se declara el modelo simple como primario.",
+    "  M2: regresion logistica multinomial sobre [mag, i1] (estandarizadas).",
+    "  M3: arbol de decision (profundidad <= 3) sobre [mag, proy, i1].",
+    "",
+    "Validacion:",
+    "  V1 (principal): dejar una carga fuera - se entrena con 3 cargas y se prueba con la 4a,",
+    "     rotando las 4. Reporta matriz de confusion global, exactitud con IC95 (Wilson) y F1 macro.",
+    "  V2 (sesion): se entrena con todo el bloque principal y se prueba con la repeticion LEVE 75 %",
+    "     del 07-oct (otra sesion), para descartar que el modelo aprenda el dia de captura.",
+    "  Limitacion conocida: cada severidad se capturo en un dia distinto (clase confundida con",
+    "  sesion); V2 solo lo prueba para LEVE."
+  ],
+  "modelos": {
+    "M1_umbrales_mag": {
+      "variables": [
+        "mag"
+      ],
+      "V1_exactitud": 0.998324958123953,
+      "V1_IC95": [
+        0.9905733768675722,
+        0.9997042603666006
+      ],
+      "V1_F1_macro": 0.9983206962554064,
+      "V1_matriz": [
+        [
+          200,
+          0,
+          0
+        ],
+        [
+          0,
+          199,
+          1
+        ],
+        [
+          0,
+          0,
+          197
+        ]
+      ],
+      "V1_por_carga": {
+        "0%": {
+          "exactitud": 0.9933333333333333,
+          "n": 150,
+          "errores": [
+            [
+              "INTER",
+              "SEVERA",
+              4.28
+            ]
+          ],
+          "umbrales": [
+            1.626,
+            4.034
+          ]
+        },
+        "25%": {
+          "exactitud": 1.0,
+          "n": 150,
+          "errores": [],
+          "umbrales": [
+            1.551,
+            4.471
+          ]
+        },
+        "50%": {
+          "exactitud": 1.0,
+          "n": 150,
+          "errores": [],
+          "umbrales": [
+            1.626,
+            4.471
+          ]
+        },
+        "75%": {
+          "exactitud": 1.0,
+          "n": 147,
+          "errores": [],
+          "umbrales": [
+            1.679,
+            4.539
+          ]
+        }
+      },
+      "V2_repeticion_aciertos": 10,
+      "V2_n": 10,
+      "umbrales_finales": [
+        1.626,
+        4.471
+      ]
+    },
+    "M2_logistica_mag_i1": {
+      "variables": [
+        "mag",
+        "i1"
+      ],
+      "V1_exactitud": 1.0,
+      "V1_IC95": [
+        0.9936063015610104,
+        1.0
+      ],
+      "V1_F1_macro": 1.0,
+      "V1_matriz": [
+        [
+          200,
+          0,
+          0
+        ],
+        [
+          0,
+          200,
+          0
+        ],
+        [
+          0,
+          0,
+          197
+        ]
+      ],
+      "V1_por_carga": {
+        "0%": {
+          "exactitud": 1.0,
+          "n": 150,
+          "errores": []
+        },
+        "25%": {
+          "exactitud": 1.0,
+          "n": 150,
+          "errores": []
+        },
+        "50%": {
+          "exactitud": 1.0,
+          "n": 150,
+          "errores": []
+        },
+        "75%": {
+          "exactitud": 1.0,
+          "n": 147,
+          "errores": []
+        }
+      },
+      "V2_repeticion_aciertos": 10,
+      "V2_n": 10
+    },
+    "M3_arbol_mag_proy_i1": {
+      "variables": [
+        "mag",
+        "proy",
+        "i1"
+      ],
+      "V1_exactitud": 0.998324958123953,
+      "V1_IC95": [
+        0.9905733768675722,
+        0.9997042603666006
+      ],
+      "V1_F1_macro": 0.9983206962554064,
+      "V1_matriz": [
+        [
+          200,
+          0,
+          0
+        ],
+        [
+          0,
+          199,
+          1
+        ],
+        [
+          0,
+          0,
+          197
+        ]
+      ],
+      "V1_por_carga": {
+        "0%": {
+          "exactitud": 0.9933333333333333,
+          "n": 150,
+          "errores": [
+            [
+              "INTER",
+              "SEVERA",
+              4.28
+            ]
+          ]
+        },
+        "25%": {
+          "exactitud": 1.0,
+          "n": 150,
+          "errores": []
+        },
+        "50%": {
+          "exactitud": 1.0,
+          "n": 150,
+          "errores": []
+        },
+        "75%": {
+          "exactitud": 1.0,
+          "n": 147,
+          "errores": []
+        }
+      },
+      "V2_repeticion_aciertos": 10,
+      "V2_n": 10,
+      "arbol": "|--- proy <= 1.57\n|   |--- class: 0\n|--- proy >  1.57\n|   |--- mag <= 4.47\n|   |   |--- class: 1\n|   |--- mag >  4.47\n|   |   |--- class: 2\n"
+    }
+  }
+}

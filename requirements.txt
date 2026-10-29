@@ -1,0 +1,7 @@
+# Versions used for all reported results (Python 3.14.4, Ubuntu system packages)
+scikit-learn==1.7.2
+numpy==2.3.5
+scipy==1.16.3
+matplotlib==3.10.7
+pandas==2.3.3
+joblib==1.5.2

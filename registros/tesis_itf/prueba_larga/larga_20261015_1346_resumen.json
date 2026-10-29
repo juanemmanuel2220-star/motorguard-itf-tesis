@@ -1,0 +1,23 @@
+{
+  "fecha": "2026-10-15 14:46:06",
+  "firmware": "299a943",
+  "nota": "validacion ciega 2, motor sano 25 %, lazo desconectado",
+  "exposicion_min": 60.0,
+  "eventos_falsa_alarma": 1,
+  "tasa_por_hora": 1.0,
+  "tasa_sup95_por_hora": 4.74,
+  "escalones_de_carga": 0,
+  "escalones_con_alarma_30s": 0,
+  "alarmas_tras_escalon": 0,
+  "alarmas_atascadas_>30s": 0,
+  "eventos": [
+    {
+      "t_ini": 1792094618.81767,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1792094623.9375222,
+      "duracion_s": 5.1
+    }
+  ],
+  "escalones": []
+}

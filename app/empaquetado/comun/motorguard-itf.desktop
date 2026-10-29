@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=Application
+Version=1.5
+Name=MotorGuard-ITF
+GenericName=Monitoreo de fallas entre espiras
+Comment=Detector embebido de fallas entre espiras (MCSA) — monitoreo, inyección segura y mantenimiento
+Exec=motorguard-itf
+Icon=motorguard-itf
+Terminal=false
+Categories=Science;Engineering;
+Keywords=motor;MCSA;falla;espiras;Arduino;
+StartupNotify=true
+StartupWMClass=motorguard-itf
+Actions=reproducir;
+
+[Desktop Action reproducir]
+Name=Reproducir un log…
+Exec=motorguard-itf --elegir-log

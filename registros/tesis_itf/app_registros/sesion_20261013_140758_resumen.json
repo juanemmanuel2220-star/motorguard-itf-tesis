@@ -1,0 +1,107 @@
+{
+  "inicio": "14:07:59",
+  "fin": "14:24:50",
+  "duracion_min": 16.9,
+  "partes_log": [
+    "sesion_20261013_140758_serial.log"
+  ],
+  "tramas": 594,
+  "intervalo_mediano_s": 1.707,
+  "intervalo_max_s": 2.03,
+  "huecos": [],
+  "motor": [
+    {
+      "hora": "14:07:59",
+      "estado": "OFF"
+    },
+    {
+      "hora": "14:09:11",
+      "estado": "WARMUP"
+    },
+    {
+      "hora": "14:10:13",
+      "estado": "ON"
+    },
+    {
+      "hora": "14:16:19",
+      "estado": "OFF"
+    }
+  ],
+  "comandos": {
+    "0": 2
+  },
+  "pulsos_firmware": [],
+  "pulsos_app": [],
+  "alarmas": [
+    {
+      "tipo": "ALARMA",
+      "inicio": "2026-10-13 14:11:22",
+      "t_inicio": "1791922282.776",
+      "fin": "2026-10-13 14:12:27",
+      "t_fin": "1791922347.429",
+      "duracion_s": "64.7",
+      "sev_inicial": "LEVE",
+      "sev_max": "LEVE",
+      "ml_inicial": "0.614",
+      "ml_max": "0.850",
+      "p_inicial": "0.486",
+      "i1_A": "4.8372",
+      "ia_A": "3.34",
+      "ib_A": "3.74",
+      "ic_A": "3.22",
+      "n_tramas": "38",
+      "motivo_fin": "liberada por el firmware",
+      "detalle": ""
+    },
+    {
+      "tipo": "ALARMA",
+      "inicio": "2026-10-13 14:16:12",
+      "t_inicio": "1791922572.338",
+      "fin": "2026-10-13 14:16:19",
+      "t_fin": "1791922579.089",
+      "duracion_s": "6.8",
+      "sev_inicial": "LEVE",
+      "sev_max": "SEVERA",
+      "ml_inicial": "1.098",
+      "ml_max": "223.581",
+      "p_inicial": "0.640",
+      "i1_A": "4.8557",
+      "ia_A": "3.36",
+      "ib_A": "3.76",
+      "ic_A": "3.24",
+      "n_tramas": "4",
+      "motivo_fin": "motor apagado",
+      "detalle": ""
+    }
+  ],
+  "conexion": [],
+  "consultas": [],
+  "errores_app_log": 0,
+  "errores_detalle": [],
+  "comprobaciones": [
+    {
+      "descripcion": "Cada '1' tuvo respuesta del firmware en ≤ 1 s",
+      "ok": true
+    },
+    {
+      "descripcion": "Todo pulso confirmado se apagó (mensaje 'Apagado' del firmware)",
+      "ok": true
+    },
+    {
+      "descripcion": "Ningún pulso pasó de 12 s encendido (T_ON del firmware)",
+      "ok": true
+    },
+    {
+      "descripcion": "Al conectar se envió '0' (primer comando de la sesión)",
+      "ok": true
+    },
+    {
+      "descripcion": "Solo salieron comandos permitidos ('1', '0', 'W', 'f', 's')",
+      "ok": true
+    },
+    {
+      "descripcion": "Sin errores en app.log durante la sesión",
+      "ok": true
+    }
+  ]
+}

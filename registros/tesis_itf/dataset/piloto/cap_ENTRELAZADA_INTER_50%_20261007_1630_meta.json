@@ -1,0 +1,41 @@
+{
+  "sesiones": [
+    {
+      "inicio": "2026-10-07 16:30:35",
+      "clase": "INTER",
+      "carga": "50%",
+      "pares_previos": 0,
+      "firmware": "4630994 feat(validacion): pulso y pausas configurables, declarados para la repeticion con firmware",
+      "nota": "taps INTER fase C; I_lazo=3.7 A (pinza 07-oct); fusible 5 A; carga 50%; firmware 81657f4/e4922bd",
+      "parametros": {
+        "clase": 2,
+        "carga": "50%",
+        "pares": 50,
+        "port": "/dev/ttyACM0",
+        "continuar": false,
+        "duracion_pulso": 7.0,
+        "t_min_on": 3.0,
+        "cooldown": 8.0,
+        "umbral_e2": 0.0,
+        "nota": "taps INTER fase C; I_lazo=3.7 A (pinza 07-oct); fusible 5 A; carga 50%; firmware 81657f4/e4922bd",
+        "tol_i": 0.06,
+        "tol_de2": 0.35
+      },
+      "previo": {
+        "ia": 4.89,
+        "ib": 5.33,
+        "ic": 4.82,
+        "va": 124.8,
+        "vb": 124.1,
+        "vc": 124.4,
+        "u2v": 0.92,
+        "u2i": 3.17,
+        "de2_fw": 0.12
+      },
+      "fin": "2026-10-07 16:33:13",
+      "pares_total": 10,
+      "descartes": 0,
+      "observaciones": "DESCARTADA: 10 pares con la corriente del lazo bajando de 3.7 a 3.3 A (pinza) por calentamiento/contacto del lazo; firma 1.9-2.7 pp con angulo disperso. Se repite el 50 % tras revisar bornes."
+    }
+  ]
+}

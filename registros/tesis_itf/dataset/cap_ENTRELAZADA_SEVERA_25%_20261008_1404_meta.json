@@ -1,0 +1,85 @@
+{
+  "sesiones": [
+    {
+      "inicio": "2026-10-08 14:04:11",
+      "clase": "SEVERA",
+      "carga": "25%",
+      "pares_previos": 0,
+      "firmware": "f643484 fix(captura): --continuar ignora el archivo _descartes al buscar la sesion previa",
+      "nota": "taps SEVERA fase C; resistor 5 ohm/700 W con ventilador; I_lazo=4.8 A al inicio (pinza); fusible 10 A rapido; SSR sobre disipador; carga 25%; cooldown 20 s; tol-de2 1.0",
+      "parametros": {
+        "clase": 3,
+        "carga": "25%",
+        "pares": 50,
+        "port": "/dev/ttyACM0",
+        "continuar": false,
+        "duracion_pulso": 7.0,
+        "t_min_on": 3.0,
+        "cooldown": 20.0,
+        "umbral_e2": 0.0,
+        "nota": "taps SEVERA fase C; resistor 5 ohm/700 W con ventilador; I_lazo=4.8 A al inicio (pinza); fusible 10 A rapido; SSR sobre disipador; carga 25%; cooldown 20 s; tol-de2 1.0",
+        "tol_i": 0.06,
+        "tol_de2": 1.0
+      },
+      "previo": {
+        "ia": 4.08,
+        "ib": 4.66,
+        "ic": 4.21,
+        "va": 116.7,
+        "vb": 127.1,
+        "vc": 124.0,
+        "u2v": 3.41,
+        "u2i": 4.58,
+        "de2_fw": 0.29
+      },
+      "fin": "2026-10-08 14:19:00",
+      "pares_total": 29,
+      "descartes": 5,
+      "observaciones": "I_lazo 4.8 A al inicio, 5.1 A a los ~6 pares. Corrientes del motor sano subieron IA 4.07->4.27 A. Desde 14:16:51 el lazo no conduce; captura detenida por el usuario."
+    },
+    {
+      "inicio": "2026-10-08 14:21:14",
+      "clase": "SEVERA",
+      "carga": "25%",
+      "pares_previos": 24,
+      "firmware": "f643484 fix(captura): --continuar ignora el archivo _descartes al buscar la sesion previa",
+      "nota": "REANUDACION desde el par 25 tras fijar la resistencia que se habia safado (lazo abierto 14:16); pulso de prueba 7.3-7.4 pp",
+      "parametros": {
+        "clase": 3,
+        "carga": "25%",
+        "pares": 50,
+        "port": "/dev/ttyACM0",
+        "continuar": true,
+        "duracion_pulso": 7.0,
+        "t_min_on": 3.0,
+        "cooldown": 20.0,
+        "umbral_e2": 0.0,
+        "nota": "REANUDACION desde el par 25 tras fijar la resistencia que se habia safado (lazo abierto 14:16); pulso de prueba 7.3-7.4 pp",
+        "tol_i": 0.06,
+        "tol_de2": 1.0
+      },
+      "previo": {
+        "ia": 4.15,
+        "ib": 4.64,
+        "ic": 4.17,
+        "va": 117.9,
+        "vb": 126.4,
+        "vc": 122.3,
+        "u2v": 2.94,
+        "u2i": 3.63,
+        "de2_fw": 0.17
+      },
+      "fin": "2026-10-08 14:33:46",
+      "pares_total": 50,
+      "descartes": 2,
+      "observaciones": "Reanudada desde el par 25 tras fijar la resistencia. I_lazo (pinza) 5.0 A a mitad de la reanudacion."
+    }
+  ],
+  "exclusiones": [
+    {
+      "pares": "25-29",
+      "desde": "2026-10-08 14:16:51",
+      "motivo": "lazo dejo de conducir (|dR2| 0.10-0.23 pp, dI~0 con SSR ordenado); filas originales en piloto/cap_ENTRELAZADA_SEVERA_25%_20261008_1404_original_29pares.csv"
+    }
+  ]
+}

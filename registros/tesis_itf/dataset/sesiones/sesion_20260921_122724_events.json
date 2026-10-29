@@ -1,0 +1,20 @@
+[
+  {
+    "event_id": 1,
+    "timestamp": 1790015244.2107768,
+    "sample_index": 0,
+    "event_type": "INICIO_SESION",
+    "description": "Inicio de sesi\u00f3n sesion_20260921_122724",
+    "load_level": 0,
+    "fault_class": 0
+  },
+  {
+    "event_id": 2,
+    "timestamp": 1790015246.2785408,
+    "sample_index": 0,
+    "event_type": "FIN_SESION",
+    "description": "Cierre formal de sesi\u00f3n",
+    "load_level": 0,
+    "fault_class": 0
+  }
+]

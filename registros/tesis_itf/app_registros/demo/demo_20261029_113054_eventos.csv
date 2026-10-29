@@ -1,0 +1,17 @@
+tipo,inicio,t_inicio,fin,t_fin,duracion_s,sev_inicial,sev_max,ml_inicial,ml_max,p_inicial,i1_A,ia_A,ib_A,ic_A,n_tramas,motivo_fin,detalle
+SSR,2026-10-29 11:33:45,1793295225.209,,,,,,,,,,,,,,,[DEBUG SSR] Exito: GPIO 8 puesto en HIGH (3V)
+SSR,2026-10-29 11:33:50,1793295230.323,,,,,,,,,,,,,,,[DEBUG SSR] Apagado. Forzado: 0 | T_ON: 5128 ms
+ALARMA,2026-10-29 11:33:51,1793295231.266,2026-10-29 11:34:01,1793295241.460,10.2,INTER,INTER,2.251,2.840,2.224,7.9102,5.60,5.82,5.42,6,liberada por el firmware,
+SSR,2026-10-29 11:34:05,1793295245.647,,,,,,,,,,,,,,,[DEBUG SSR] Exito: GPIO 8 puesto en HIGH (3V)
+SSR,2026-10-29 11:34:10,1793295250.725,,,,,,,,,,,,,,,[DEBUG SSR] Apagado. Forzado: 0 | T_ON: 5076 ms
+ALARMA,2026-10-29 11:34:08,1793295248.263,2026-10-29 11:34:21,1793295261.870,13.6,INTER,INTER,2.529,2.529,2.754,7.8755,5.56,5.78,5.44,8,liberada por el firmware,
+SSR,2026-10-29 11:34:26,1793295266.075,,,,,,,,,,,,,,,[DEBUG SSR] Exito: GPIO 8 puesto en HIGH (3V)
+SSR,2026-10-29 11:34:31,1793295271.122,,,,,,,,,,,,,,,[DEBUG SSR] Apagado. Forzado: 0 | T_ON: 5048 ms
+REINICIO,2026-10-29 11:34:46,1793295286.471,,,,,,,,,,,,,,,liberación manual del detector ('r') por el usuario
+ALARMA,2026-10-29 11:34:32,1793295272.058,2026-10-29 11:34:45,1793295285.665,13.6,INTER,INTER,2.350,2.496,2.346,7.8652,5.53,5.80,5.41,9,liberada manualmente (r),
+SSR,2026-10-29 11:35:06,1793295306.074,,,,,,,,,,,,,,,[DEBUG SSR] Exito: GPIO 8 puesto en HIGH (3V)
+SSR,2026-10-29 11:35:13,1793295313.122,,,,,,,,,,,,,,,[DEBUG SSR] Apagado. Forzado: 0 | T_ON: 7049 ms
+ALARMA,2026-10-29 11:35:12,1793295312.852,2026-10-29 11:35:23,1793295323.059,10.2,INTER,INTER,2.191,2.559,2.405,7.8817,5.55,5.81,5.41,6,liberada por el firmware,
+SSR,2026-10-29 11:35:28,1793295328.172,,,,,,,,,,,,,,,[DEBUG SSR] Exito: GPIO 8 puesto en HIGH (3V)
+SSR,2026-10-29 11:35:35,1793295335.222,,,,,,,,,,,,,,,[DEBUG SSR] Apagado. Forzado: 0 | T_ON: 7050 ms
+ALARMA,2026-10-29 11:35:34,1793295334.967,2026-10-29 11:35:36,1793295336.667,1.7,INTER,INTER,2.275,2.275,2.326,7.8473,5.52,5.79,5.40,2,sesión cerrada con la alarma activa,

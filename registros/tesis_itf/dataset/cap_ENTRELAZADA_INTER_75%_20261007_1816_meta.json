@@ -1,0 +1,41 @@
+{
+  "sesiones": [
+    {
+      "inicio": "2026-10-07 18:16:41",
+      "clase": "INTER",
+      "carga": "75%",
+      "pares_previos": 0,
+      "firmware": "4630994 feat(validacion): pulso y pausas configurables, declarados para la repeticion con firmware",
+      "nota": "taps INTER fase C; SSR de repuesto + resistor nuevo 5 ohm/700 W con ventilador; I_lazo=3.3 A al inicio (pinza); fusible 5 A; carga 75%",
+      "parametros": {
+        "clase": 2,
+        "carga": "75%",
+        "pares": 50,
+        "port": "/dev/ttyACM0",
+        "continuar": false,
+        "duracion_pulso": 7.0,
+        "t_min_on": 3.0,
+        "cooldown": 15.0,
+        "umbral_e2": 0.0,
+        "nota": "taps INTER fase C; SSR de repuesto + resistor nuevo 5 ohm/700 W con ventilador; I_lazo=3.3 A al inicio (pinza); fusible 5 A; carga 75%",
+        "tol_i": 0.06,
+        "tol_de2": 0.35
+      },
+      "previo": {
+        "ia": 5.45,
+        "ib": 5.93,
+        "ic": 5.26,
+        "va": 118.4,
+        "vb": 127.2,
+        "vc": 123.5,
+        "u2v": 3.6,
+        "u2i": 2.79,
+        "de2_fw": 0.15
+      },
+      "fin": "2026-10-07 18:36:43",
+      "pares_total": 50,
+      "descartes": 2,
+      "observaciones": "I_lazo (pinza): 3.3 A al inicio, 3.3 A a la mitad (par ~10), 3.3 A al final. Firma estable (2.12 -> 2.16 pp). 2 descartes por salto de DE2 del firmware dentro del pulso."
+    }
+  ]
+}

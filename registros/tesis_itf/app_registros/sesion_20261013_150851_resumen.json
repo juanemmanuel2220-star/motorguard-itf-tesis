@@ -1,0 +1,258 @@
+{
+  "inicio": "15:08:52",
+  "fin": "15:14:31",
+  "duracion_min": 5.6,
+  "partes_log": [
+    "sesion_20261013_150851_serial.log"
+  ],
+  "tramas": 199,
+  "intervalo_mediano_s": 1.796,
+  "intervalo_max_s": 2.01,
+  "huecos": [],
+  "motor": [
+    {
+      "hora": "15:08:52",
+      "estado": "ON"
+    },
+    {
+      "hora": "15:14:25",
+      "estado": "OFF"
+    }
+  ],
+  "comandos": {
+    "0": 6,
+    "1": 4
+  },
+  "pulsos_firmware": [
+    {
+      "t_cmd": "15:09:58",
+      "respuesta": "encendido",
+      "latencia_s": 0.007,
+      "t_on_ms": 5086,
+      "forzado": false
+    },
+    {
+      "t_cmd": "15:12:01",
+      "respuesta": "encendido",
+      "latencia_s": 0.255,
+      "t_on_ms": 5126,
+      "forzado": false
+    },
+    {
+      "t_cmd": "15:12:57",
+      "respuesta": "encendido",
+      "latencia_s": 0.006,
+      "t_on_ms": 10127,
+      "forzado": false
+    },
+    {
+      "t_cmd": "15:13:22",
+      "respuesta": "encendido",
+      "latencia_s": 0.215,
+      "t_on_ms": 10225,
+      "forzado": false
+    }
+  ],
+  "pulsos_app": [
+    {
+      "n": "1",
+      "serie": "1",
+      "pulso_en_serie": "1",
+      "taps_declarados": "INTER",
+      "solicitud": "2026-10-13 15:09:58",
+      "t_solicitud": "1791925798.228",
+      "duracion_pedida_s": "5",
+      "confirmacion_fw": "encendido",
+      "motivo_rechazo_fw": "",
+      "t_encendido": "1791925798.278",
+      "t_apagado": "1791925803.321",
+      "t_on_ms_fw": "5086",
+      "forzado_fw": "0",
+      "resultado": "completo",
+      "alarma_confirmada": "1",
+      "latencia_alarma_s": "6.3",
+      "sev_max": "INTER",
+      "ml_max_pp": "2.730",
+      "p_max_pp": "2.748",
+      "i1_A": "7.4987"
+    },
+    {
+      "n": "2",
+      "serie": "2",
+      "pulso_en_serie": "1",
+      "taps_declarados": "INTER",
+      "solicitud": "2026-10-13 15:12:01",
+      "t_solicitud": "1791925921.866",
+      "duracion_pedida_s": "5",
+      "confirmacion_fw": "encendido",
+      "motivo_rechazo_fw": "",
+      "t_encendido": "1791925922.141",
+      "t_apagado": "1791925927.296",
+      "t_on_ms_fw": "5126",
+      "forzado_fw": "0",
+      "resultado": "completo",
+      "alarma_confirmada": "1",
+      "latencia_alarma_s": "5.1",
+      "sev_max": "INTER",
+      "ml_max_pp": "2.645",
+      "p_max_pp": "2.785",
+      "i1_A": "7.5843"
+    },
+    {
+      "n": "3",
+      "serie": "3",
+      "pulso_en_serie": "1",
+      "taps_declarados": "INTER",
+      "solicitud": "2026-10-13 15:12:57",
+      "t_solicitud": "1791925977.188",
+      "duracion_pedida_s": "10",
+      "confirmacion_fw": "encendido",
+      "motivo_rechazo_fw": "",
+      "t_encendido": "1791925977.231",
+      "t_apagado": "1791925987.321",
+      "t_on_ms_fw": "10127",
+      "forzado_fw": "0",
+      "resultado": "completo",
+      "alarma_confirmada": "1",
+      "latencia_alarma_s": "4.2",
+      "sev_max": "INTER",
+      "ml_max_pp": "2.802",
+      "p_max_pp": "2.801",
+      "i1_A": "7.4840"
+    },
+    {
+      "n": "4",
+      "serie": "3",
+      "pulso_en_serie": "2",
+      "taps_declarados": "INTER",
+      "solicitud": "2026-10-13 15:13:22",
+      "t_solicitud": "1791926002.416",
+      "duracion_pedida_s": "10",
+      "confirmacion_fw": "encendido",
+      "motivo_rechazo_fw": "",
+      "t_encendido": "1791926002.633",
+      "t_apagado": "1791926012.854",
+      "t_on_ms_fw": "10225",
+      "forzado_fw": "0",
+      "resultado": "completo",
+      "alarma_confirmada": "1",
+      "latencia_alarma_s": "1.3",
+      "sev_max": "INTER",
+      "ml_max_pp": "3.094",
+      "p_max_pp": "2.387",
+      "i1_A": "7.4679"
+    }
+  ],
+  "alarmas": [
+    {
+      "tipo": "ALARMA",
+      "inicio": "2026-10-13 15:10:04",
+      "t_inicio": "1791925804.545",
+      "fin": "2026-10-13 15:10:09",
+      "t_fin": "1791925809.660",
+      "duracion_s": "5.1",
+      "sev_inicial": "INTER",
+      "sev_max": "INTER",
+      "ml_inicial": "2.730",
+      "ml_max": "2.730",
+      "p_inicial": "2.283",
+      "i1_A": "7.6112",
+      "ia_A": "5.19",
+      "ib_A": "5.82",
+      "ic_A": "5.15",
+      "n_tramas": "3",
+      "motivo_fin": "liberada por el firmware",
+      "detalle": ""
+    },
+    {
+      "tipo": "ALARMA",
+      "inicio": "2026-10-13 15:12:07",
+      "t_inicio": "1791925927.225",
+      "fin": "2026-10-13 15:12:12",
+      "t_fin": "1791925932.354",
+      "duracion_s": "5.1",
+      "sev_inicial": "INTER",
+      "sev_max": "INTER",
+      "ml_inicial": "2.645",
+      "ml_max": "2.645",
+      "p_inicial": "2.644",
+      "i1_A": "7.6212",
+      "ia_A": "5.21",
+      "ib_A": "5.82",
+      "ic_A": "5.20",
+      "n_tramas": "3",
+      "motivo_fin": "liberada por el firmware",
+      "detalle": ""
+    },
+    {
+      "tipo": "ALARMA",
+      "inicio": "2026-10-13 15:13:01",
+      "t_inicio": "1791925981.453",
+      "fin": "2026-10-13 15:13:13",
+      "t_fin": "1791925993.694",
+      "duracion_s": "12.2",
+      "sev_inicial": "INTER",
+      "sev_max": "INTER",
+      "ml_inicial": "2.802",
+      "ml_max": "2.802",
+      "p_inicial": "2.801",
+      "i1_A": "7.6243",
+      "ia_A": "5.22",
+      "ib_A": "5.80",
+      "ic_A": "5.22",
+      "n_tramas": "7",
+      "motivo_fin": "liberada por el firmware",
+      "detalle": ""
+    },
+    {
+      "tipo": "ALARMA",
+      "inicio": "2026-10-13 15:13:21",
+      "t_inicio": "1791926001.904",
+      "fin": "2026-10-13 15:13:39",
+      "t_fin": "1791926019.249",
+      "duracion_s": "17.3",
+      "sev_inicial": "LEVE",
+      "sev_max": "INTER",
+      "ml_inicial": "0.683",
+      "ml_max": "3.094",
+      "p_inicial": "0.512",
+      "i1_A": "7.4112",
+      "ia_A": "5.03",
+      "ib_A": "5.76",
+      "ic_A": "4.99",
+      "n_tramas": "10",
+      "motivo_fin": "liberada por el firmware",
+      "detalle": ""
+    }
+  ],
+  "conexion": [],
+  "consultas": [],
+  "errores_app_log": 0,
+  "errores_detalle": [],
+  "comprobaciones": [
+    {
+      "descripcion": "Cada '1' tuvo respuesta del firmware en ≤ 1 s",
+      "ok": true
+    },
+    {
+      "descripcion": "Todo pulso confirmado se apagó (mensaje 'Apagado' del firmware)",
+      "ok": true
+    },
+    {
+      "descripcion": "Ningún pulso pasó de 12 s encendido (T_ON del firmware)",
+      "ok": true
+    },
+    {
+      "descripcion": "Al conectar se envió '0' (primer comando de la sesión)",
+      "ok": true
+    },
+    {
+      "descripcion": "Solo salieron comandos permitidos ('1', '0', 'W', 'f', 's')",
+      "ok": true
+    },
+    {
+      "descripcion": "Sin errores en app.log durante la sesión",
+      "ok": true
+    }
+  ]
+}

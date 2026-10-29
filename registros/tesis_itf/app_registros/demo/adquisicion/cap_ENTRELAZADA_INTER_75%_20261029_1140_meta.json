@@ -1,0 +1,52 @@
+{
+  "sesiones": [
+    {
+      "inicio": "2026-10-29 11:40:53",
+      "clase": "INTER",
+      "carga": "75%",
+      "pares_previos": 0,
+      "firmware": "299a943 feat(firmware): enclavamiento de la alarma y clasificacion de severidad embebida",
+      "nota": "",
+      "parametros": {
+        "clase": 2,
+        "carga": "75%",
+        "pares": 2,
+        "port": "/dev/pts/1",
+        "continuar": false,
+        "duracion_pulso": 7.0,
+        "t_min_on": 3.0,
+        "cooldown": 15.0,
+        "umbral_e2": 0.0,
+        "nota": "",
+        "tol_i": 0.06,
+        "tol_de2": 0.35
+      },
+      "origen": "MotorGuard-ITF 1.0.0 (sección Adquisición)",
+      "protocolo": "captura_dataset_multiclase.py v4.2 en la app: bloques de hasta 10 pulsos con confirmación humana; pausa automática si un pulso se interrumpe",
+      "registro_crudo_sesion": "/home/luna/tesis_itf/app_registros/demo/demo_20261029_113707_serial.log",
+      "bloques": 1,
+      "pausas": [
+        {
+          "hora": "2026-10-29 11:41:37",
+          "pares": 2,
+          "motivo": "captura completada"
+        }
+      ],
+      "previo": {
+        "ia": 5.39,
+        "ib": 5.83,
+        "ic": 5.23,
+        "va": 115.4,
+        "vb": 121.4,
+        "vc": 111.5,
+        "u2v": 4.9,
+        "u2i": 2.76,
+        "de2_fw": 0.17
+      },
+      "fin": "2026-10-29 11:41:37",
+      "pares_total": 2,
+      "descartes": 0,
+      "motivo_fin": "captura completada"
+    }
+  ]
+}

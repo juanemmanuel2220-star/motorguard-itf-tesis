@@ -1,0 +1,62 @@
+{
+  "inicio": "15:14:44",
+  "fin": "15:17:51",
+  "duracion_min": 3.1,
+  "partes_log": [
+    "sesion_20261013_151442_serial.log"
+  ],
+  "tramas": 110,
+  "intervalo_mediano_s": 1.708,
+  "intervalo_max_s": 2.01,
+  "huecos": [],
+  "motor": [
+    {
+      "hora": "15:14:45",
+      "estado": "OFF"
+    },
+    {
+      "hora": "15:16:49",
+      "estado": "WARMUP"
+    },
+    {
+      "hora": "15:17:49",
+      "estado": "ON"
+    }
+  ],
+  "comandos": {
+    "0": 2
+  },
+  "pulsos_firmware": [],
+  "pulsos_app": [],
+  "alarmas": [],
+  "conexion": [],
+  "consultas": [],
+  "errores_app_log": 0,
+  "errores_detalle": [],
+  "comprobaciones": [
+    {
+      "descripcion": "Cada '1' tuvo respuesta del firmware en ≤ 1 s",
+      "ok": true
+    },
+    {
+      "descripcion": "Todo pulso confirmado se apagó (mensaje 'Apagado' del firmware)",
+      "ok": true
+    },
+    {
+      "descripcion": "Ningún pulso pasó de 12 s encendido (T_ON del firmware)",
+      "ok": true
+    },
+    {
+      "descripcion": "Al conectar se envió '0' (primer comando de la sesión)",
+      "ok": true
+    },
+    {
+      "descripcion": "Solo salieron comandos permitidos ('1', '0', 'W', 'f', 's')",
+      "ok": true
+    },
+    {
+      "descripcion": "Sin errores en app.log durante la sesión",
+      "ok": true
+    }
+  ]
+}

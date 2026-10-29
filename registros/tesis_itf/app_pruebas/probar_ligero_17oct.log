@@ -1,0 +1,16 @@
+=================== ubuntu:26.04
+instalado en Ubuntu 26.04.1 LTS
+Package: motorguard-itf Status: install ok installed Version: 1.0.0 
+/usr/bin/motorguard-itf
+usage: app.py [-h] [--puerto PUERTO | --replay LOG | --elegir-log]
+              [--velocidad VELOCIDAD] [--tema {sistema,claro,oscuro}]
+manual: incluido en el paquete
+la app corrió (código 124; 124 = cerrada por el tiempo de prueba)
+errores en app.log: 0
+Inicio MotorGuard-ITF 1.0.0 | modo: reproducción de sesion | Python 3.14.4 | PySide6 6.10.2 / Qt 6.10.2 | Linux-7.0.0-38-generic-x86_64-with-glibc2.43
+replay_sesion_20261017_214512_eventos.csv
+X11 (Xvfb): la app corrió (código 124), errores en app.log: 0
+desinstalación: ok
+sin residuos de __pycache__
+===================
+TODAS LAS PRUEBAS DEL PAQUETE PASARON

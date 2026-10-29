@@ -1,0 +1,320 @@
+{
+  "fecha": "2026-10-08 16:35:13",
+  "carga": "75%",
+  "clase": "INTER",
+  "decision": "firmware",
+  "t_pulso": 11.0,
+  "esperas_rango": [
+    12.0,
+    20.0
+  ],
+  "concordancia_pc_fw": {
+    "comparadas": 232,
+    "concuerdan": 232
+  },
+  "semilla": 1791498507,
+  "ang_falla": -81.4,
+  "umbral": 0.4,
+  "persistencia": 3,
+  "t_cola": 2.0,
+  "regla_primaria": "persistencia (v2)",
+  "plan": [
+    "REAL",
+    "REAL",
+    "SIMULADA",
+    "SIMULADA",
+    "SIMULADA",
+    "REAL",
+    "REAL",
+    "REAL",
+    "SIMULADA",
+    "SIMULADA",
+    "SIMULADA",
+    "SIMULADA",
+    "REAL",
+    "SIMULADA",
+    "SIMULADA",
+    "REAL",
+    "REAL",
+    "REAL",
+    "REAL",
+    "SIMULADA"
+  ],
+  "TP": 5,
+  "FN": 0,
+  "FP": 1,
+  "TN": 6,
+  "sensibilidad": 1.0,
+  "especificidad": 0.8571428571428571,
+  "v1_ultima_trama": {
+    "TP": 1,
+    "FN": 4,
+    "FP": 0,
+    "TN": 7
+  },
+  "tramas_libres": 99,
+  "tramas_libres_sobre_umbral": 6,
+  "eventos_falsa_alarma_continua": 1,
+  "minutos_libres": 2.4,
+  "falsas_alarmas_por_hora": 24.81,
+  "severidad_esperada": "INTER",
+  "severidad_correcta": 5,
+  "detectadas": 5,
+  "severidad_distribucion": {
+    "LEVE": 0,
+    "INTER": 5,
+    "SEVERA": 0
+  },
+  "enclavamiento_ok": 5,
+  "liberacion_s": {
+    "min": 5.1,
+    "max": 5.9
+  },
+  "reales_sin_firma": [],
+  "secundario_sin_reales_sin_firma": {
+    "TP": 5,
+    "FN": 0
+  },
+  "pruebas": [
+    {
+      "prueba": 1,
+      "tipo": "REAL",
+      "proys": [
+        2.753373571276988,
+        2.8533418930677836,
+        2.753372501326848,
+        2.7219388394176702,
+        0.10381738235584896
+      ],
+      "alarma": true,
+      "alarma_v1": false,
+      "t_ini": 1791498546.7162118,
+      "t_fin": 1791498558.256308,
+      "sev_max": 2,
+      "dr2_max": 2.8551,
+      "sin_firma": false,
+      "enclavada_ok": true,
+      "liberada_s": 5.9
+    },
+    {
+      "prueba": 2,
+      "tipo": "REAL",
+      "proys": [
+        2.873215965910807,
+        2.8457621286479244,
+        2.8046364222083517,
+        2.6074206204702177,
+        -0.059560380009861594
+      ],
+      "alarma": true,
+      "alarma_v1": false,
+      "t_ini": 1791498575.3838632,
+      "t_fin": 1791498586.6250844,
+      "sev_max": 2,
+      "dr2_max": 2.8772,
+      "sin_firma": false,
+      "enclavada_ok": true,
+      "liberada_s": 5.1
+    },
+    {
+      "prueba": 3,
+      "tipo": "SIMULADA",
+      "proys": [
+        0.03995059399703617,
+        0.13761496456655473,
+        -0.00509439898211619,
+        -0.10245710550605508,
+        0.033299236722865236
+      ],
+      "alarma": false,
+      "alarma_v1": false,
+      "t_ini": 1791498608.0538762,
+      "t_fin": 1791498619.597962,
+      "sev_max": 0,
+      "dr2_max": 0.3367,
+      "sin_firma": false,
+      "enclavada_ok": null,
+      "liberada_s": null
+    },
+    {
+      "prueba": 4,
+      "tipo": "SIMULADA",
+      "proys": [
+        0.06817626360538649,
+        0.013434462592194298,
+        0.031519032475212504,
+        0.0585608207550965,
+        0.04455331110861637
+      ],
+      "alarma": false,
+      "alarma_v1": false,
+      "t_ini": 1791498636.7265394,
+      "t_fin": 1791498647.9493775,
+      "sev_max": 0,
+      "dr2_max": 0.1867,
+      "sin_firma": false,
+      "enclavada_ok": null,
+      "liberada_s": null
+    },
+    {
+      "prueba": 5,
+      "tipo": "SIMULADA",
+      "proys": [
+        0.020672511792061907,
+        -0.1884572283600713,
+        -0.23640184163581024,
+        -0.23997525111566118,
+        -0.02267317997264405
+      ],
+      "alarma": false,
+      "alarma_v1": false,
+      "t_ini": 1791498666.3972917,
+      "t_fin": 1791498677.619138,
+      "sev_max": 0,
+      "dr2_max": 0.3146,
+      "sin_firma": false,
+      "enclavada_ok": null,
+      "liberada_s": null
+    },
+    {
+      "prueba": 6,
+      "tipo": "REAL",
+      "proys": [
+        2.9183019799502863,
+        2.6391169692791885,
+        2.603876684920743,
+        2.6486754594221353,
+        1.4658341986021914
+      ],
+      "alarma": true,
+      "alarma_v1": true,
+      "t_ini": 1791498700.386317,
+      "t_fin": 1791498711.6104147,
+      "sev_max": 2,
+      "dr2_max": 2.9193,
+      "sin_firma": false,
+      "enclavada_ok": true,
+      "liberada_s": 5.9
+    },
+    {
+      "prueba": 7,
+      "tipo": "REAL",
+      "proys": [
+        3.0734249346894393,
+        2.971919829743219,
+        2.9959790470633165,
+        2.448429112456359,
+        0.02654555184914049
+      ],
+      "alarma": true,
+      "alarma_v1": false,
+      "t_ini": 1791498733.8511803,
+      "t_fin": 1791498745.0900514,
+      "sev_max": 2,
+      "dr2_max": 3.1552,
+      "sin_firma": false,
+      "enclavada_ok": true,
+      "liberada_s": 5.1
+    },
+    {
+      "prueba": 8,
+      "tipo": "REAL",
+      "proys": [
+        2.6220237396939146,
+        3.1481019034322575,
+        3.27385393016181,
+        2.728466108920419,
+        0.00608060289840863
+      ],
+      "alarma": true,
+      "alarma_v1": false,
+      "t_ini": 1791498769.6334376,
+      "t_fin": 1791498780.869926,
+      "sev_max": 2,
+      "dr2_max": 3.2741,
+      "sin_firma": false,
+      "enclavada_ok": true,
+      "liberada_s": 5.1
+    },
+    {
+      "prueba": 9,
+      "tipo": "SIMULADA",
+      "proys": [
+        -0.1880184913718203,
+        -0.19012238671675868,
+        0.10774171286230418,
+        0.12942796687572866,
+        0.26785701435699455
+      ],
+      "alarma": false,
+      "alarma_v1": false,
+      "t_ini": 1791498800.305417,
+      "t_fin": 1791498811.5244524,
+      "sev_max": 0,
+      "dr2_max": 0.4237,
+      "sin_firma": false,
+      "enclavada_ok": null,
+      "liberada_s": null
+    },
+    {
+      "prueba": 10,
+      "tipo": "SIMULADA",
+      "proys": [
+        -0.03141349625063134,
+        -0.18078961216325357,
+        0.523994386587943,
+        0.20426694709892318,
+        -0.06963907130703809
+      ],
+      "alarma": false,
+      "alarma_v1": false,
+      "t_ini": 1791498830.974226,
+      "t_fin": 1791498842.199448,
+      "sev_max": 0,
+      "dr2_max": 0.5244,
+      "sin_firma": false,
+      "enclavada_ok": null,
+      "liberada_s": null
+    },
+    {
+      "prueba": 11,
+      "tipo": "SIMULADA",
+      "proys": [
+        0.21316082098508965,
+        0.07449710874255513,
+        0.0029000875848616443,
+        -0.02644139599845311,
+        0.1836382193073415
+      ],
+      "alarma": false,
+      "alarma_v1": false,
+      "t_ini": 1791498863.9650939,
+      "t_fin": 1791498875.1884704,
+      "sev_max": 0,
+      "dr2_max": 0.3716,
+      "sin_firma": false,
+      "enclavada_ok": null,
+      "liberada_s": null
+    },
+    {
+      "prueba": 12,
+      "tipo": "SIMULADA",
+      "proys": [
+        -0.5036466906005034,
+        0.05779498921613801,
+        0.12460368285029498,
+        0.2440442657873548,
+        0.09693973585415683
+      ],
+      "alarma": true,
+      "alarma_v1": false,
+      "t_ini": 1791498895.6362598,
+      "t_fin": 1791498906.6648781,
+      "sev_max": 1,
+      "dr2_max": 0.5121,
+      "sin_firma": false,
+      "enclavada_ok": true,
+      "liberada_s": 5.1
+    }
+  ]
+}

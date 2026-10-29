@@ -1,0 +1,4 @@
+tipo,inicio,t_inicio,fin,t_fin,duracion_s,sev_inicial,sev_max,ml_inicial,ml_max,p_inicial,i1_A,ia_A,ib_A,ic_A,n_tramas,motivo_fin,detalle
+SSR,2026-10-29 12:00:06,1793296806.424,,,,,,,,,,,,,,,[DEBUG SSR] Exito: GPIO 8 puesto en HIGH (3V)
+SSR,2026-10-29 12:00:11,1793296811.521,,,,,,,,,,,,,,,[DEBUG SSR] Apagado. Forzado: 0 | T_ON: 5100 ms
+ALARMA,2026-10-29 12:00:11,1793296811.771,2026-10-29 12:04:42,1793297082.084,270.3,INTER,INTER,2.251,2.840,2.224,7.9102,5.60,5.82,5.42,160,sesión cerrada con la alarma activa,

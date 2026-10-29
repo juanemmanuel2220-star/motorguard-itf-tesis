@@ -1,0 +1,6 @@
+n,serie,pulso_en_serie,taps_declarados,solicitud,t_solicitud,duracion_pedida_s,confirmacion_fw,motivo_rechazo_fw,t_encendido,t_apagado,t_on_ms_fw,forzado_fw,resultado,alarma_confirmada,latencia_alarma_s,sev_max,ml_max_pp,p_max_pp,i1_A
+1,1,1,INTER,2026-10-13 15:22:36,1791926556.137,5,encendido,,1791926556.397,1791926561.519,5123,0,completo,1,4.4,INTER,2.254,2.254,7.4434
+2,1,2,INTER,2026-10-13 15:23:01,1791926581.616,5,encendido,,1791926581.953,1791926587.069,5118,0,completo,1,6.4,INTER,2.214,2.327,7.4468
+3,1,3,INTER,2026-10-13 15:23:27,1791926607.116,5,encendido,,1791926607.515,1791926612.638,5126,0,completo,1,4.4,INTER,2.539,2.670,7.4592
+4,2,1,INTER,2026-10-13 15:25:43,1791926743.539,11,encendido,,1791926743.555,1791926746.532,2988,0,PARO manual,0,,,,2.511,7.4655
+5,3,1,INTER,2026-10-13 15:26:32,1791926792.536,11,encendido,,1791926792.861,1791926795.916,,,app cerrada durante el pulso,0,,,,1.722,7.5047

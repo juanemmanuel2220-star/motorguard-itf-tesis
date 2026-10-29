@@ -1,0 +1,37 @@
+{
+  "fecha": "2026-10-12 15:19:38",
+  "firmware": "299a943",
+  "nota": "enmienda 4f08c86; tramo 0 %; lazo desconectado",
+  "exposicion_min": 22.5,
+  "eventos_falsa_alarma": 3,
+  "tasa_por_hora": 7.99,
+  "tasa_sup95_por_hora": 20.66,
+  "escalones_de_carga": 0,
+  "escalones_con_alarma_30s": 0,
+  "alarmas_tras_escalon": 0,
+  "alarmas_atascadas_>30s": 0,
+  "eventos": [
+    {
+      "t_ini": 1791839122.018596,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1791839133.5452065,
+      "duracion_s": 11.5
+    },
+    {
+      "t_ini": 1791839142.4653556,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1791839148.887926,
+      "duracion_s": 6.4
+    },
+    {
+      "t_ini": 1791839174.439209,
+      "sev_max": "LEVE",
+      "tras_escalon": false,
+      "t_fin": 1791839186.4797182,
+      "duracion_s": 12.0
+    }
+  ],
+  "escalones": []
+}

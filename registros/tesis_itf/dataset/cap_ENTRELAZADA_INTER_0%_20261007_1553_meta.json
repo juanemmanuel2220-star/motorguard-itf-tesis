@@ -1,0 +1,40 @@
+{
+  "sesiones": [
+    {
+      "inicio": "2026-10-07 15:53:12",
+      "clase": "INTER",
+      "carga": "0%",
+      "pares_previos": 0,
+      "firmware": "4630994 feat(validacion): pulso y pausas configurables, declarados para la repeticion con firmware",
+      "nota": "taps INTER fase C; I_lazo=3.6 A (pinza 07-oct); fusible 5 A; carga 0%; firmware 81657f4/e4922bd; VA(A4) lee bajo (columnas de voltaje no confiables)",
+      "parametros": {
+        "clase": 2,
+        "carga": "0%",
+        "pares": 50,
+        "port": "/dev/ttyACM0",
+        "continuar": false,
+        "duracion_pulso": 7.0,
+        "t_min_on": 3.0,
+        "cooldown": 8.0,
+        "umbral_e2": 0.0,
+        "nota": "taps INTER fase C; I_lazo=3.6 A (pinza 07-oct); fusible 5 A; carga 0%; firmware 81657f4/e4922bd; VA(A4) lee bajo (columnas de voltaje no confiables)",
+        "tol_i": 0.06,
+        "tol_de2": 0.35
+      },
+      "previo": {
+        "ia": 4.06,
+        "ib": 4.24,
+        "ic": 3.9,
+        "va": 118.6,
+        "vb": 130.0,
+        "vc": 130.5,
+        "u2v": 2.19,
+        "u2i": 1.55,
+        "de2_fw": 0.04
+      },
+      "fin": "2026-10-07 16:06:03",
+      "pares_total": 50,
+      "descartes": 0
+    }
+  ]
+}
